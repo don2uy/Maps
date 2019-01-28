@@ -1,0 +1,5425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RADARSAT-2 APT KML Export MSI_2018Dec21-Jan11_DVWF</name>
+	<open>1</open>
+	<description>APT Orbit Configuration: Nominal_2010-Feb-24-Version</description>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="FramePolygonStyle">
+		<LineStyle>
+			<color>ff82ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="RegionPolygonStyle">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="SwathPolygonStyle">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>swath-1</name>
+		<open>1</open>
+		<Placemark>
+			<name>swath-1</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-1
+Start UTC Time: 2018-12-21T10:31:20.331Z
+Stop UTC Time: 2018-12-21T10:32:35.331Z
+Start Abs. Orbit: 57521.996386146
+Start Cycle, Rel. Orbit: 167, 4.996386146
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								119.66889,4.9111,0 119.68311,4.84382,0 119.81467,4.22395,0 119.9471,3.60416,0 120.08043,2.98444,0 120.21468,2.36481,0 120.34986,1.74527,0 120.486,1.12582,0 120.62312,0.50647,0 116.82218,-0.33763,0 116.68395,0.28586,0 116.54626,0.90942,0 116.40909,1.53303,0 116.27241,2.15671,0 116.13622,2.78044,0 116.00048,3.40422,0 115.86519,4.02804,0 115.85053,4.09574,0 119.66889,4.9111,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-1-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-21T10:31:20.331Z
+Frame Stop UTC Time: 2018-12-21T10:32:35.331Z
+Frame Start Abs. Orbit: 57521.996386146
+Frame Start Cycle, Rel. Orbit: 167, 4.996386146
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.85053,4.09574,0 119.66889,4.9111,0 120.62312,0.50647,0 116.82218,-0.33763,0 115.85053,4.09574,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Duck</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							87.21734289756216,18.03289137123616,0 87.33509035762083,17.86290599509589,0 87.46534944584917,17.62536890577158,0 87.76552792499373,17.15243244718439,0 88.07880170295501,16.81695065039008,0 88.22920004821255,16.65128528131624,0 88.28089713818812,16.58505302153758,0 88.47670569974271,16.3869721361218,0 88.74531553153231,16.22399858049911,0 88.87058424385081,16.19252106869532,0 89.07083898355666,16.19501610800964,0 89.35037092095602,16.19818541427689,0 89.54944457384634,16.20021963830924,0 89.87105987400487,16.20184643806423,0 90.01776892963125,16.26951145491466,0 90.24211071276199,16.33782504758586,0 90.53482544508742,16.4720083369548,0 90.7197197187356,16.53908779480227,0 90.86146546911506,16.63839783868383,0 91.04330019851705,16.73712051639517,0 91.11109647435579,16.80324599159324,0 91.21356707212689,16.90206039799568,0 91.33379057818054,17.1022278604097,0 91.42216489273631,17.2686934009141,0 91.48286947787238,17.3686167527423,0 91.6091880259,17.53536486194945,0 91.73060173674654,17.73528619352922,0 91.8218359561219,17.90071556838629,0 91.94899737933214,18.09809360355586,0 92.04665447578938,18.22949758268881,0 92.10490779414322,18.36161729360672,0 92.22559690095449,18.59294845571057,0 92.274620606925,18.79163222993499,0 92.28096397648682,19.0239985208576,0 92.29191295711293,19.2233084925483,0 92.25886133985597,19.45714417221221,0 92.16751993553979,19.55844299719153,0 92.03705502166018,19.6604448633638,0 91.79376199458331,19.73087382320887,0 91.55435526909601,19.7676516571595,0 91.39261965923137,19.80326563832413,0 91.19117264122892,19.83925745358165,0 90.91548308824881,19.84218913777979,0 90.79147255472286,19.87724189349819,0 90.46802927170229,19.91445470357406,0 90.2290494052223,19.91647791258612,0 90.02978708723306,19.91773835703116,0 89.8469552530822,19.81705725258496,0 89.69677574861073,19.71940641217035,0 89.53794171353849,19.68797773759167,0 89.37875850667945,19.65639767719016,0 89.21933595973215,19.62461797955917,0 89.05330200500676,19.62686537272161,0 88.87400975485896,19.69751802107068,0 88.70711685973355,19.69953355814994,0 88.48453065433002,19.77067981711985,0 88.35190553788873,19.80645180983517,0 88.13476332932849,19.84299398893725,0 88.00135573131269,19.87865803465613,0 87.61434536856396,19.91583795788217,0 87.31502766216653,19.91838111304334,0 87.14150188149365,19.92043188404825,0 86.8343069188517,19.92466361372498,0 86.66528578742044,19.89221062190636,0 86.38686672549264,19.75613419825263,0 86.26973615104808,19.68756299399806,0 86.03896407574425,19.51664606169637,0 85.97172541076152,19.41331330324742,0 85.91919027251808,19.24061167208777,0 85.95573684315662,19.06752155821278,0 86.07361134328001,18.92884712013065,0 86.17661457914409,18.85942098714218,0 86.38150643628109,18.72087285649204,0 86.42401872607287,18.51440847504675,0 86.32776971890482,18.34276738951377,0 86.26842405868294,18.20536773006827,0 86.11416069531028,18.10215096410046,0 85.99645902212576,18.03318997021082,0 85.89321817803759,17.89533663965693,0 85.91494833063808,17.79230608740924,0 86.03170184766756,17.65549560032467,0 87.21734289756216,18.03289137123616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-2</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-2</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-2
+Start UTC Time: 2018-12-21T12:11:57.799Z
+Stop UTC Time: 2018-12-21T12:13:12.799Z
+Start Abs. Orbit: 57522.995060707
+Start Cycle, Rel. Orbit: 167, 5.995060707
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.05012000000001,2.30673,0 90.91404,2.93047,0 90.77840999999999,3.55426,0 90.76370999999999,3.62196,0 94.57915,4.44031,0 94.59344999999999,4.37305,0 94.72566999999999,3.75323,0 94.85878,3.1335,0 94.99281000000001,2.51384,0 95.12777,1.89428,0 95.26367000000001,1.27481,0 95.40054999999998,0.65544,0 95.53842,0.03617,0 91.73805,-0.8111000000000002,0 91.59939,-0.18767,0 91.46128,0.43584,0 91.32371999999999,1.05941,0 91.18667000000002,1.68304,0 91.05012000000001,2.30673,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-2-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-21T12:11:57.799Z
+Frame Stop UTC Time: 2018-12-21T12:13:12.799Z
+Frame Start Abs. Orbit: 57522.995060707
+Frame Start Cycle, Rel. Orbit: 167, 5.995060707
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								90.76370999999999,3.62196,0 94.57915,4.44031,0 95.53842,0.03617,0 91.73805,-0.8111000000000002,0 90.76370999999999,3.62196,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-3</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-3</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-3
+Start UTC Time: 2018-12-21T21:21:13.536Z
+Stop UTC Time: 2018-12-21T21:22:28.536Z
+Start Abs. Orbit: 57528.446409420
+Start Cycle, Rel. Orbit: 167, 11.446409420
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.6537,16.72798,0 127.52295,16.10402,0 127.39218,15.48002,0 127.37798,15.41231,0 123.40999,16.15998,0 123.42279,16.22731,0 123.54046,16.84774,0 123.65755,17.46815,0 123.77407,18.08856,0 123.89003,18.70894,0 124.00625,19.32916,0 124.12114,19.9495,0 124.23551,20.56981,0 128.30845,19.84716,0 128.17754,19.22337,0 128.04672,18.59954,0 127.91518,17.97582,0 127.78444,17.35192,0 127.6537,16.72798,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-3-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-21T21:21:13.536Z
+Frame Stop UTC Time: 2018-12-21T21:22:28.536Z
+Frame Start Abs. Orbit: 57528.446409420
+Frame Start Cycle, Rel. Orbit: 167, 11.446409420
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.23551,20.56981,0 128.30845,19.84716,0 127.37798,15.41231,0 123.40999,16.15998,0 124.23551,20.56981,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-4</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-4</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-4
+Start UTC Time: 2018-12-21T23:05:44.100Z
+Stop UTC Time: 2018-12-21T23:06:59.100Z
+Start Abs. Orbit: 57529.483639904
+Start Cycle, Rel. Orbit: 167, 12.483639904
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Left-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								112.53597,3.12468,0 112.39367,2.50549,0 112.25249,1.8862,0 112.11265,1.26676,0 111.97362,0.6473,0 111.83564,0.02776,0 111.69868,-0.59185,0 111.68388,-0.6591,0 107.88603,0.19858,0 107.90094,0.26627,0 108.03869,0.8900300000000001,0 108.17704,1.51374,0 108.31599,2.13741,0 108.45534,2.76109,0 108.59559,3.38466,0 108.73652,4.00817,0 108.87815,4.63162,0 112.6794,3.74377,0 112.53597,3.12468,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-4-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-21T23:05:44.100Z
+Frame Stop UTC Time: 2018-12-21T23:06:59.100Z
+Frame Start Abs. Orbit: 57529.483639904
+Frame Start Cycle, Rel. Orbit: 167, 12.483639904
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.87815,4.63162,0 112.6794,3.74377,0 111.68388,-0.6591,0 107.88603,0.19858,0 108.87815,4.63162,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-5</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-5</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-5
+Start UTC Time: 2018-12-22T11:44:54.530Z
+Stop UTC Time: 2018-12-22T11:47:17.030Z
+Start Abs. Orbit: 57537.018217248
+Start Cycle, Rel. Orbit: 167, 20.018217248
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								96.48992000000001,11.20992,0 96.35794,11.83391,0 96.22657,12.45799,0 96.09535999999999,13.08206,0 95.96427,13.70612,0 95.83329999999998,14.33017,0 95.70241,14.9542,0 95.57100000000001,15.57809,0 95.50480000000002,15.89395,0 99.48287000000001,16.6388,0 99.54246000000001,16.32474,0 99.66124000000002,15.70442,0 99.78,15.08398,0 99.89937999999999,14.46354,0 100.01938,13.8431,0 100.14003,13.22267,0 100.26133,12.60225,0 100.38377,11.98193,0 100.50641,11.36154,0 100.62975,10.74117,0 100.75379,10.12083,0 100.87856,9.50052,0 101.0044,8.88031,0 101.13065,8.260070000000001,0 97.28406000000001,7.46561,0 97.1511,8.089639999999999,0 97.01812,8.71363,0 96.88572000000001,9.33769,0 96.75357,9.96176,0 96.62164000000001,10.58584,0 96.48992000000001,11.20992,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-5-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-22T11:44:54.530Z
+Frame Stop UTC Time: 2018-12-22T11:46:09.530Z
+Frame Start Abs. Orbit: 57537.018217248
+Frame Start Cycle, Rel. Orbit: 167, 20.018217248
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								96.34367,11.90164,0 100.24813,12.66957,0 101.13065,8.260070000000001,0 97.28406000000001,7.46561,0 96.34367,11.90164,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-5-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-22T11:46:02.030Z
+Frame Stop UTC Time: 2018-12-22T11:47:17.030Z
+Frame Start Abs. Orbit: 57537.029381943
+Frame Start Cycle, Rel. Orbit: 167, 20.029381943
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								95.50480000000002,15.89395,0 99.48287000000001,16.6388,0 100.33518,12.22864,0 96.43759,11.4581,0 95.50480000000002,15.89395,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-6</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-6</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-6
+Start UTC Time: 2018-12-22T22:34:53.158Z
+Stop UTC Time: 2018-12-22T22:37:15.658Z
+Start Abs. Orbit: 57543.469137530
+Start Cycle, Rel. Orbit: 167, 26.469137530
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.60374,6.28776,0 103.7325,6.90784,0 103.86045,7.527980000000001,0 103.98762,8.148160000000001,0 104.11441,8.768319999999999,0 104.24005,9.388590000000001,0 104.36496,10.00889,0 104.48913,10.62923,0 104.6126,11.24959,0 104.73537,11.86998,0 104.85798,12.49029,0 108.75956,11.72122,0 108.62749,11.09724,0 108.49574,10.47316,0 108.36377,9.849080000000001,0 108.23157,9.225009999999999,0 108.09912,8.600949999999999,0 107.9664,7.976900000000001,0 107.83302,7.352950000000001,0 107.6997,6.72895,0 107.56606,6.104970000000001,0 107.43207,5.48102,0 107.2977,4.8571,0 107.16271,4.23327,0 107.02755,3.60943,0 106.95897,3.29367,0 103.14544,4.11417,0 103.21222,4.42793,0 103.34349,5.04782,0 103.47416,5.667729999999999,0 103.60374,6.28776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-6-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-22T22:34:53.158Z
+Frame Stop UTC Time: 2018-12-22T22:36:08.158Z
+Frame Start Abs. Orbit: 57543.469137530
+Frame Start Cycle, Rel. Orbit: 167, 26.469137530
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.85798,12.49029,0 108.75956,11.72122,0 107.81857,7.28523,0 103.97386,8.08086,0 104.85798,12.49029,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-6-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-22T22:36:00.658Z
+Frame Stop UTC Time: 2018-12-22T22:37:15.658Z
+Frame Start Abs. Orbit: 57543.480302360
+Frame Start Cycle, Rel. Orbit: 167, 26.480302360
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.06385,8.521739999999999,0 107.91317,7.72882,0 106.95897,3.29367,0 103.14544,4.11417,0 104.06385,8.521739999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-7</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-7</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-7
+Start UTC Time: 2018-12-23T11:14:27.066Z
+Stop UTC Time: 2018-12-23T11:16:49.566Z
+Start Abs. Orbit: 57551.007598672
+Start Cycle, Rel. Orbit: 167, 34.007598672
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.55719,12.86369,0 107.6187,12.54964,0 107.7412,11.92932,0 107.8639,11.30893,0 107.9873,10.68857,0 108.1114,10.06823,0 108.23623,9.44792,0 108.36213,8.82771,0 108.48846,8.20748,0 108.61555,7.58729,0 108.74343,6.96715,0 108.87211,6.34706,0 109.00161,5.72703,0 109.13213,5.1071,0 109.26331,4.4872,0 105.4476,3.66915,0 105.31248,4.29299,0 105.17759,4.91684,0 105.04326,5.54076,0 104.9093,6.16471,0 104.77569,6.788690000000001,0 104.64241,7.4127,0 104.50943,8.03673,0 104.37642,8.66071,0 104.244,9.28477,0 104.11182,9.90884,0 103.97988,10.53292,0 103.84814,11.157,0 103.71614,11.78099,0 103.64962,12.0969,0 107.55719,12.86369,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-7-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-23T11:14:27.066Z
+Frame Stop UTC Time: 2018-12-23T11:15:42.066Z
+Frame Start Abs. Orbit: 57551.007598672
+Frame Start Cycle, Rel. Orbit: 167, 34.007598672
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.4947,8.104380000000001,0 108.34814,8.894959999999999,0 109.26331,4.4872,0 105.4476,3.66915,0 104.4947,8.104380000000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-7-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-23T11:15:34.566Z
+Frame Stop UTC Time: 2018-12-23T11:16:49.566Z
+Frame Start Abs. Orbit: 57551.018763284
+Frame Start Cycle, Rel. Orbit: 167, 34.018763284
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.64962,12.0969,0 107.55719,12.86369,0 108.43813,8.45412,0 104.58949,7.66086,0 103.64962,12.0969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-8</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-8</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-8
+Start UTC Time: 2018-12-23T22:04:17.788Z
+Stop UTC Time: 2018-12-23T22:06:40.288Z
+Start Abs. Orbit: 57557.457210688
+Start Cycle, Rel. Orbit: 167, 40.457210688
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.68892,9.74555,0 115.55668,9.12148,0 115.42419,8.49743,0 115.29142,7.87338,0 115.22373,7.55759,0 111.37622,8.35155,0 111.44056,8.665430000000001,0 111.56632,9.285690000000001,0 111.69135,9.905989999999999,0 111.81564,10.52632,0 111.93923,11.14668,0 112.06211,11.76707,0 112.18484,12.38737,0 112.30637,13.00779,0 112.42724,13.62822,0 112.54747,14.24866,0 112.66706,14.8691,0 112.78604,15.48954,0 112.90508,16.10986,0 113.02286,16.73029,0 117.00283,15.98589,0 116.87204,15.3619,0 116.74056,14.73801,0 116.60964,14.11397,0 116.47863,13.48991,0 116.3475,12.86585,0 116.21623,12.24177,0 116.08481,11.61769,0 115.95271,10.99371,0 115.82092,10.36963,0 115.68892,9.74555,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-8-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-23T22:04:17.788Z
+Frame Stop UTC Time: 2018-12-23T22:05:32.788Z
+Frame Start Abs. Orbit: 57557.457210688
+Frame Start Cycle, Rel. Orbit: 167, 40.457210688
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								113.02286,16.73029,0 117.00283,15.98589,0 116.07054,11.54997,0 112.17161,12.32004,0 113.02286,16.73029,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-8-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-23T22:05:25.288Z
+Frame Stop UTC Time: 2018-12-23T22:06:40.288Z
+Frame Start Abs. Orbit: 57557.468375830
+Frame Start Cycle, Rel. Orbit: 167, 40.468375830
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								112.25812,12.76107,0 116.16399,11.9936,0 115.22373,7.55759,0 111.37622,8.35155,0 112.25812,12.76107,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-9</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-9</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-9
+Start UTC Time: 2018-12-24T21:33:48.380Z
+Stop UTC Time: 2018-12-24T21:36:10.880Z
+Start Abs. Orbit: 57571.446270300
+Start Cycle, Rel. Orbit: 167, 54.446270300
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.77729,18.02555,0 124.64654,17.40165,0 124.51581,16.77772,0 124.38506,16.15376,0 124.25429,15.52977,0 124.12283,14.90588,0 123.99193,14.28185,0 123.86095,13.6578,0 123.72985,13.03373,0 123.59862,12.40966,0 123.46724,11.78558,0 123.40068,11.46968,0 119.50298,12.24023,0 119.56466,12.55427,0 119.68601,13.1747,0 119.80671,13.79513,0 119.92676,14.41557,0 120.04619,15.03601,0 120.165,15.65645,0 120.28388,16.27677,0 120.4015,16.89719,0 120.51855,17.51761,0 120.63502,18.13801,0 120.75094,18.75839,0 120.86712,19.37862,0 120.98196,19.99895,0 121.09629,20.61925,0 125.17057,19.89688,0 125.03966,19.2731,0 124.90883,18.64927,0 124.77729,18.02555,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-9-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-24T21:33:48.380Z
+Frame Stop UTC Time: 2018-12-24T21:35:03.380Z
+Frame Start Abs. Orbit: 57571.446270300
+Frame Start Cycle, Rel. Orbit: 167, 54.446270300
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.09629,20.61925,0 125.17057,19.89688,0 124.24009,15.46205,0 120.27108,16.20944,0 121.09629,20.61925,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-9-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-24T21:34:55.880Z
+Frame Stop UTC Time: 2018-12-24T21:36:10.880Z
+Frame Start Abs. Orbit: 57571.457435214
+Frame Start Cycle, Rel. Orbit: 167, 54.457435214
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.3548,16.65047,0 124.33306,15.90562,0 123.40068,11.46968,0 119.50298,12.24023,0 120.3548,16.65047,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-10</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-10</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-10
+Start UTC Time: 2018-12-24T23:15:45.501Z
+Stop UTC Time: 2018-12-24T23:17:00.501Z
+Start Abs. Orbit: 57572.458120095
+Start Cycle, Rel. Orbit: 167, 55.458120095
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								94.64246,13.92536,0 94.76239,14.5458,0 94.88168000000002,15.16624,0 95.00104,15.78656,0 95.11912,16.407,0 99.09225000000001,15.66074,0 98.96142999999999,15.03673,0 98.82992000000002,14.41283,0 98.69895,13.78879,0 98.56788,13.16473,0 98.43668,12.54065,0 98.30534,11.91658,0 98.17332,11.2926,0 98.15904000000001,11.22487,0 94.26501000000002,11.99686,0 94.27828,12.06419,0 94.40069000000001,12.6845,0 94.5219,13.30492,0 94.64246,13.92536,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-10-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-24T23:15:45.501Z
+Frame Stop UTC Time: 2018-12-24T23:17:00.501Z
+Frame Start Abs. Orbit: 57572.458120095
+Frame Start Cycle, Rel. Orbit: 167, 55.458120095
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								95.11912,16.407,0 99.09225000000001,15.66074,0 98.15904000000001,11.22487,0 94.26501000000002,11.99686,0 95.11912,16.407,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-11</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-11</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-11
+Start UTC Time: 2018-12-24T23:19:08.945Z
+Stop UTC Time: 2018-12-24T23:20:23.945Z
+Start Abs. Orbit: 57572.491770696
+Start Cycle, Rel. Orbit: 167, 55.491770696
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.77657000000001,0.10994,0 91.91432,0.7292199999999999,0 92.05107999999999,1.34861,0 92.18698999999999,1.96806,0 92.32183000000001,2.58764,0 92.45575,3.2073,0 92.58876000000001,3.82705,0 92.72086999999999,4.44688,0 96.53631,3.6285,0 96.40074,3.0047,0 96.26471000000001,2.38095,0 96.12820999999998,1.75726,0 95.99122,1.13362,0 95.85361,0.51006,0 95.71558,-0.11345,0 95.57698000000001,-0.7369,0 95.56191,-0.80455,0 91.76156,0.04274,0 91.77657000000001,0.10994,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-11-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-24T23:19:08.945Z
+Frame Stop UTC Time: 2018-12-24T23:20:23.945Z
+Frame Start Abs. Orbit: 57572.491770696
+Frame Start Cycle, Rel. Orbit: 167, 55.491770696
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								92.72086999999999,4.44688,0 96.53631,3.6285,0 95.56191,-0.80455,0 91.76156,0.04274,0 92.72086999999999,4.44688,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-12</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-12</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-12
+Start UTC Time: 2018-12-25T10:13:16.327Z
+Stop UTC Time: 2018-12-25T10:15:38.827Z
+Start Abs. Orbit: 57578.983746039
+Start Cycle, Rel. Orbit: 167, 61.983746039
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								122.04057,-4.85145,0 121.89773,-4.22857,0 121.7556,-3.60559,0 121.61415,-2.98251,0 121.47328,-2.35937,0 121.33314,-1.73612,0 121.1936,-1.1128,0 121.05466,-0.4894,0 120.91629,0.13408,0 120.77847,0.75762,0 120.64118,1.38122,0 120.50439,2.00488,0 120.36808,2.6286,0 120.23223,3.25237,0 120.16364,3.56813,0 123.97876,4.38682,0 124.04557,4.07307,0 124.17822,3.45329,0 124.31177,2.8336,0 124.44625,2.21399,0 124.58166,1.59447,0 124.71804,0.9750399999999999,0 124.85539,0.35572,0 124.99375,-0.26349,0 125.13314,-0.8826000000000001,0 125.27356,-1.50158,0 125.41515,-2.12042,0 125.55774,-2.73915,0 125.70144,-3.35775,0 125.84629,-3.9762,0 122.04057,-4.85145,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-12-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-25T10:13:16.327Z
+Frame Stop UTC Time: 2018-12-25T10:14:31.327Z
+Frame Start Abs. Orbit: 57578.983746039
+Frame Start Cycle, Rel. Orbit: 167, 61.983746039
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.03962,-0.42174,0 124.84044,0.42293,0 125.84629,-3.9762,0 122.04057,-4.85145,0 121.03962,-0.42174,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-12-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-25T10:14:23.827Z
+Frame Stop UTC Time: 2018-12-25T10:15:38.827Z
+Frame Start Abs. Orbit: 57578.994910109
+Frame Start Cycle, Rel. Orbit: 167, 61.994910109
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.16364,3.56813,0 123.97876,4.38682,0 124.93861,-0.01726,0 121.13828,-0.8649,0 120.16364,3.56813,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-13</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-13</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-13
+Start UTC Time: 2018-12-25T11:58:37.907Z
+Stop UTC Time: 2018-12-25T11:59:52.907Z
+Start Abs. Orbit: 57580.029413633
+Start Cycle, Rel. Orbit: 167, 63.029413633
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.28689,11.46943,0 93.15498,12.09342,0 93.02368000000001,12.7175,0 92.89252000000001,13.34156,0 92.76148000000001,13.96562,0 92.63055000000001,14.58966,0 92.49969,15.21368,0 92.36830999999999,15.83757,0 92.35412,15.90528,0 96.33242,16.65006,0 96.34518,16.58273,0 96.46372,15.96241,0 96.58223,15.34197,0 96.70134999999999,14.72153,0 96.82109,14.10109,0 96.94146999999998,13.48066,0 97.06249,12.86023,0 97.18465999999999,12.23991,0 93.28689,11.46943,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-13-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-25T11:58:37.907Z
+Frame Stop UTC Time: 2018-12-25T11:59:52.907Z
+Frame Start Abs. Orbit: 57580.029413633
+Frame Start Cycle, Rel. Orbit: 167, 63.029413633
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								92.35412,15.90528,0 96.33242,16.65006,0 97.18465999999999,12.23991,0 93.28689,11.46943,0 92.35412,15.90528,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-14</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-14</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-14
+Start UTC Time: 2018-12-25T22:45:10.763Z
+Stop UTC Time: 2018-12-25T22:46:25.763Z
+Start Abs. Orbit: 57586.446297993
+Start Cycle, Rel. Orbit: 167, 69.446297993
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								106.80203,17.39175,0 106.6713,16.76782,0 106.54056,16.14385,0 106.40978,15.51986,0 106.39558,15.45215,0 102.42678,16.19959,0 102.43958,16.26692,0 102.55721,16.88735,0 102.67426,17.50777,0 102.79074,18.12817,0 102.90667,18.74855,0 103.02286,19.36877,0 103.13771,19.98911,0 103.25204,20.60941,0 107.32606,19.88699,0 107.19515,19.2632,0 107.06432,18.63937,0 106.93278,18.01565,0 106.80203,17.39175,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-14-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-25T22:45:10.763Z
+Frame Stop UTC Time: 2018-12-25T22:46:25.763Z
+Frame Start Abs. Orbit: 57586.446297993
+Frame Start Cycle, Rel. Orbit: 167, 69.446297993
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.25204,20.60941,0 107.32606,19.88699,0 106.39558,15.45215,0 102.42678,16.19959,0 103.25204,20.60941,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-15</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-15</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-15
+Start UTC Time: 2018-12-26T09:48:31.645Z
+Stop UTC Time: 2018-12-26T09:50:54.145Z
+Start Abs. Orbit: 57593.029824505
+Start Cycle, Rel. Orbit: 167, 76.029824505
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.35109,18.48017,0 124.21956,19.10387,0 124.08867,19.72766,0 124.02239,20.0434,0 128.10071,20.76487,0 128.15845,20.45089,0 128.27291,19.83058,0 128.38866,19.21037,0 128.50418,18.59,0 128.62024,17.96962,0 128.73687,17.34922,0 128.85406,16.7288,0 128.97184,16.10837,0 129.09083,15.48804,0 129.20981,14.8676,0 129.3294,14.24716,0 129.44963,13.62673,0 129.5705,13.0063,0 129.6925,12.38597,0 125.79248,11.61636,0 125.66061,12.24034,0 125.52935,12.86442,0 125.39822,13.48848,0 125.26721,14.11254,0 125.13629,14.73657,0 125.00486,15.36048,0 124.87408,15.98447,0 124.74333,16.60844,0 124.6126,17.23238,0 124.48186,17.85629,0 124.35109,18.48017,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-15-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-26T09:48:31.645Z
+Frame Stop UTC Time: 2018-12-26T09:49:46.645Z
+Frame Start Abs. Orbit: 57593.029824505
+Frame Start Cycle, Rel. Orbit: 167, 76.029824505
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.85989,16.05219,0 128.84132,16.79613,0 129.6925,12.38597,0 125.79248,11.61636,0 124.85989,16.05219,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-15-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-26T09:49:39.145Z
+Frame Stop UTC Time: 2018-12-26T09:50:54.145Z
+Frame Start Abs. Orbit: 57593.040989674
+Frame Start Cycle, Rel. Orbit: 167, 76.040989674
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.02239,20.0434,0 128.10071,20.76487,0 128.92494,16.35509,0 124.95285,15.60862,0 124.02239,20.0434,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-16</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-16</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-16
+Start UTC Time: 2018-12-26T22:19:07.697Z
+Stop UTC Time: 2018-12-26T22:21:30.197Z
+Start Abs. Orbit: 57600.479412838
+Start Cycle, Rel. Orbit: 167, 83.479412838
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								110.8335,1.80822,0 110.69656,1.18457,0 110.55899,0.56101,0 110.421,-0.06251,0 110.35094,-0.3781,0 106.55009,0.46634,0 106.61965,0.77983,0 106.75633,1.39922,0 106.89216,2.01869,0 107.02693,2.63827,0 107.16077,3.25794,0 107.29371,3.877689999999999,0 107.42575,4.49752,0 107.55718,5.11737,0 107.6875,5.73734,0 107.81699,6.35737,0 107.94565,6.977470000000001,0 108.07352,7.59761,0 108.2006,8.2178,0 108.3273,8.837960000000001,0 112.18007,8.04697,0 112.04672,7.423019999999999,0 111.91344,6.79901,0 111.77983,6.17502,0 111.64588,5.55107,0 111.51156,4.92715,0 111.37685,4.30326,0 111.24149,3.67947,0 111.10595,3.05567,0 110.96996,2.43192,0 110.8335,1.80822,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-16-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-26T22:19:07.697Z
+Frame Stop UTC Time: 2018-12-26T22:20:22.697Z
+Frame Start Abs. Orbit: 57600.479412838
+Frame Start Cycle, Rel. Orbit: 167, 83.479412838
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.3273,8.837960000000001,0 112.18007,8.04697,0 111.2268,3.61177,0 107.41146,4.43026,0 108.3273,8.837960000000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-16-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-26T22:20:15.197Z
+Frame Stop UTC Time: 2018-12-26T22:21:30.197Z
+Frame Start Abs. Orbit: 57600.490576894
+Frame Start Cycle, Rel. Orbit: 167, 83.490576894
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.50486,4.8709,0 111.32293,4.05523,0 110.35094,-0.3781,0 106.55009,0.46634,0 107.50486,4.8709,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-17</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-17</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-17
+Start UTC Time: 2018-12-27T10:59:50.464Z
+Stop UTC Time: 2018-12-27T11:01:05.464Z
+Start Abs. Orbit: 57608.029262731
+Start Cycle, Rel. Orbit: 167, 91.029262731
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.07374,15.78361,0 107.05954,15.85133,0 111.03671,16.59642,0 111.04948,16.52909,0 111.16806,15.90877,0 111.28663,15.28833,0 111.4058,14.66789,0 111.5256,14.04745,0 111.64603,13.42701,0 111.76711,12.80659,0 111.88933,12.18626,0 107.99239,11.41547,0 107.86046,12.03946,0 107.72915,12.66354,0 107.59798,13.2876,0 107.46693,13.91166,0 107.33599,14.5357,0 107.20513,15.15973,0 107.07374,15.78361,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-17-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-27T10:59:50.464Z
+Frame Stop UTC Time: 2018-12-27T11:01:05.464Z
+Frame Start Abs. Orbit: 57608.029262731
+Frame Start Cycle, Rel. Orbit: 167, 91.029262731
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.05954,15.85133,0 111.03671,16.59642,0 111.88933,12.18626,0 107.99239,11.41547,0 107.05954,15.85133,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-18</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-18</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-18
+Start UTC Time: 2018-12-27T21:46:27.597Z
+Stop UTC Time: 2018-12-27T21:47:42.597Z
+Start Abs. Orbit: 57614.446854533
+Start Cycle, Rel. Orbit: 167, 97.446854533
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.84754,19.06427,0 121.71597,18.44058,0 121.58521,17.8167,0 121.45447,17.19279,0 121.32373,16.56884,0 121.19298,15.94487,0 121.06219,15.32087,0 121.04799,15.25316,0 117.08324,16.00174,0 117.09606,16.06907,0 117.21388,16.6895,0 117.33111,17.30992,0 117.44778,17.93033,0 117.56388,18.55071,0 117.67944,19.17108,0 117.79526,19.79129,0 117.90976,20.4116,0 121.97843,19.68807,0 121.84754,19.06427,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-18-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-27T21:46:27.597Z
+Frame Stop UTC Time: 2018-12-27T21:47:42.597Z
+Frame Start Abs. Orbit: 57614.446854533
+Frame Start Cycle, Rel. Orbit: 167, 97.446854533
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								117.90976,20.4116,0 121.97843,19.68807,0 121.04799,15.25316,0 117.08324,16.00174,0 117.90976,20.4116,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-19</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-19</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-19
+Start UTC Time: 2018-12-27T21:48:42.367Z
+Stop UTC Time: 2018-12-27T21:49:57.367Z
+Start Abs. Orbit: 57614.469146515
+Start Cycle, Rel. Orbit: 167, 97.469146515
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.91012,10.0057,0 116.0343,10.62604,0 116.15777,11.2464,0 116.28054,11.86679,0 116.40317,12.48709,0 120.3047,11.71801,0 120.17262,11.09403,0 120.04086,10.46994,0 119.9089,9.84586,0 119.7767,9.22179,0 119.64425,8.59773,0 119.51153,7.97369,0 119.37814,7.349740000000001,0 119.36369,7.28202,0 115.51902,8.07766,0 115.53278,8.144970000000001,0 115.65957,8.76512,0 115.78522,9.385389999999999,0 115.91012,10.0057,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-19-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-27T21:48:42.367Z
+Frame Stop UTC Time: 2018-12-27T21:49:57.367Z
+Frame Start Abs. Orbit: 57614.469146515
+Frame Start Cycle, Rel. Orbit: 167, 97.469146515
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								116.40317,12.48709,0 120.3047,11.71801,0 119.36369,7.28202,0 115.51902,8.07766,0 116.40317,12.48709,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-20</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-20</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-20
+Start UTC Time: 2018-12-27T23:29:23.549Z
+Stop UTC Time: 2018-12-27T23:30:38.549Z
+Start Abs. Orbit: 57615.468435508
+Start Cycle, Rel. Orbit: 167, 98.468435508
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								94.77319000000001,10.10011,0 94.64109000000001,9.476039999999999,0 94.50873999999999,8.85197,0 94.37614000000001,8.227919999999999,0 94.24287,7.60397,0 94.22843,7.53625,0 90.38114000000002,8.33034,0 90.39487000000001,8.397650000000001,0 90.52135,9.01782,0 90.6467,9.6381,0 90.7713,10.25842,0 90.89519,10.87877,0 91.01838000000001,11.49915,0 91.14087000000002,12.11954,0 91.26322,12.73985,0 95.16875,11.97226,0 95.03675,11.34828,0 94.90507,10.72419,0 94.77319000000001,10.10011,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-20-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-27T23:29:23.549Z
+Frame Stop UTC Time: 2018-12-27T23:30:38.549Z
+Frame Start Abs. Orbit: 57615.468435508
+Frame Start Cycle, Rel. Orbit: 167, 98.468435508
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.26322,12.73985,0 95.16875,11.97226,0 94.22843,7.53625,0 90.38114000000002,8.33034,0 91.26322,12.73985,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-21</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-21</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-21
+Start UTC Time: 2018-12-28T10:31:35.261Z
+Stop UTC Time: 2018-12-28T10:32:50.261Z
+Start Abs. Orbit: 57622.040520885
+Start Cycle, Rel. Orbit: 167, 105.040520885
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								114.49261,15.44101,0 114.36183,16.065,0 114.23108,16.68897,0 114.10035,17.3129,0 113.96961,17.93681,0 113.83884,18.56068,0 113.7073,19.18437,0 113.5764,19.80816,0 113.56219,19.87585,0 117.63596,20.59826,0 117.64834,20.53094,0 117.76274,19.91064,0 117.87842,19.29043,0 117.99386,18.67007,0 118.10986,18.04968,0 118.22641,17.42928,0 118.34353,16.80887,0 118.46124,16.18844,0 114.49261,15.44101,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-21-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-28T10:31:35.261Z
+Frame Stop UTC Time: 2018-12-28T10:32:50.261Z
+Frame Start Abs. Orbit: 57622.040520885
+Frame Start Cycle, Rel. Orbit: 167, 105.040520885
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								113.56219,19.87585,0 117.63596,20.59826,0 118.46124,16.18844,0 114.49261,15.44101,0 113.56219,19.87585,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-22</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-22</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-22
+Start UTC Time: 2018-12-28T12:08:55.758Z
+Stop UTC Time: 2018-12-28T12:10:10.758Z
+Start Abs. Orbit: 57623.006615436
+Start Cycle, Rel. Orbit: 167, 106.006615436
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.07377,7.061140000000001,0 90.94062000000001,7.685160000000001,0 90.92619000000001,7.75288,0 94.77581000000001,8.545579999999999,0 94.78952,8.47828,0 94.91628,7.85807,0 95.04380999999999,7.2379,0 95.17214,6.61779,0 95.30128000000001,5.997740000000001,0 95.43124,5.37774,0 95.56224,4.75785,0 95.69392000000001,4.13799,0 91.88022000000001,3.3177,0 91.74486,3.94152,0 91.60975000000002,4.56535,0 91.47519999999999,5.18925,0 91.34104000000001,5.81318,0 91.20724000000001,6.43715,0 91.07377,7.061140000000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-22-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-28T12:08:55.758Z
+Frame Stop UTC Time: 2018-12-28T12:10:10.758Z
+Frame Start Abs. Orbit: 57623.006615436
+Frame Start Cycle, Rel. Orbit: 167, 106.006615436
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								90.92619000000001,7.75288,0 94.77581000000001,8.545579999999999,0 95.69392000000001,4.13799,0 91.88022000000001,3.3177,0 90.92619000000001,7.75288,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-23</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-23</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-23
+Start UTC Time: 2018-12-28T21:19:20.885Z
+Stop UTC Time: 2018-12-28T21:21:43.385Z
+Start Abs. Orbit: 57628.469441489
+Start Cycle, Rel. Orbit: 167, 111.469441489
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								126.83613,7.86821,0 126.70269,7.24427,0 126.56932,6.620270000000001,0 126.43562,5.99629,0 126.30156,5.37235,0 126.16713,4.74844,0 126.03207,4.12462,0 125.89683,3.50078,0 125.82822,3.18502,0 122.01528,4.00622,0 122.08214,4.31997,0 122.21356,4.93985,0 122.34438,5.55975,0 122.4741,6.17976,0 122.603,6.79984,0 122.7311,7.419969999999999,0 122.8584,8.040139999999999,0 122.98532,8.66029,0 123.11109,9.28055,0 123.23612,9.90085,0 123.36043,10.52119,0 123.48401,11.14155,0 123.6069,11.76193,0 123.72964,12.38223,0 127.62953,11.61252,0 127.49743,10.98854,0 127.36564,10.36446,0 127.23363,9.74038,0 127.10139,9.11632,0 126.96889,8.49226,0 126.83613,7.86821,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-23-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-28T21:19:20.885Z
+Frame Stop UTC Time: 2018-12-28T21:20:35.885Z
+Frame Start Abs. Orbit: 57628.469441489
+Frame Start Cycle, Rel. Orbit: 167, 111.469441489
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								123.72964,12.38223,0 127.62953,11.61252,0 126.68824,7.17655,0 122.84462,7.972839999999999,0 123.72964,12.38223,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-23-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-28T21:20:28.385Z
+Frame Stop UTC Time: 2018-12-28T21:21:43.385Z
+Frame Start Abs. Orbit: 57628.480606318
+Frame Start Cycle, Rel. Orbit: 167, 111.480606318
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								122.9347,8.41372,0 126.78288,7.62014,0 125.82822,3.18502,0 122.01528,4.00622,0 122.9347,8.41372,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-24</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-24</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-24
+Start UTC Time: 2018-12-29T09:56:36.662Z
+Stop UTC Time: 2018-12-29T09:58:59.162Z
+Start Abs. Orbit: 57635.985055302
+Start Cycle, Rel. Orbit: 167, 118.985055302
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								125.84817,-3.13817,0 125.70714,-2.51505,0 125.56683,-1.89182,0 125.42715,-1.26851,0 125.28806,-0.64513,0 125.14955,-0.02167,0 125.0116,0.60185,0 124.87417,1.22544,0 124.73726,1.84909,0 124.60083,2.47279,0 124.46487,3.09655,0 124.32936,3.72035,0 124.26093,4.03613,0 128.07891,4.85186,0 128.14538,4.53808,0 128.27737,3.91824,0 128.41025,3.29849,0 128.54403,2.67881,0 128.67873,2.05922,0 128.81439,1.43973,0 128.951,0.82033,0 129.08861,0.20103,0 129.22722,-0.41816,0 129.36686,-1.03723,0 129.50756,-1.65618,0 129.64941,-2.27499,0 129.79228,-2.89369,0 129.93626,-3.51225,0 126.13209,-4.38418,0 125.98979,-3.76122,0 125.84817,-3.13817,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-24-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-29T09:56:36.662Z
+Frame Stop UTC Time: 2018-12-29T09:57:51.662Z
+Frame Start Abs. Orbit: 57635.985055302
+Frame Start Cycle, Rel. Orbit: 167, 118.985055302
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								125.13456,0.04599,0 128.93613,0.88754,0 129.93626,-3.51225,0 126.13209,-4.38418,0 125.13456,0.04599,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-24-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-29T09:57:44.162Z
+Frame Stop UTC Time: 2018-12-29T09:58:59.162Z
+Frame Start Abs. Orbit: 57635.996219373
+Frame Start Cycle, Rel. Orbit: 167, 118.996219373
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.26093,4.03613,0 128.07891,4.85186,0 129.03377,0.44729,0 125.23292,-0.39721,0 124.26093,4.03613,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-25</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-25</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-25
+Start UTC Time: 2018-12-29T22:32:56.263Z
+Stop UTC Time: 2018-12-29T22:35:18.763Z
+Start Abs. Orbit: 57643.491466943
+Start Cycle, Rel. Orbit: 167, 126.491466943
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.56091,1.24216,0 107.42339,0.61859,0 107.28545,-0.00493,0 107.14695,-0.62839,0 107.00788,-1.25178,0 106.86822,-1.87509,0 106.72793,-2.49832,0 106.58702,-3.12147,0 106.44543,-3.74452,0 106.30314,-4.36748,0 106.23084,-4.68278,0 102.42575,-3.808670000000001,0 102.49905,-3.495620000000001,0 102.64301,-2.87705,0 102.78585,-2.25835,0 102.92756,-1.63951,0 103.06822,-1.02055,0 103.20784,-0.40147,0 103.34642,0.21772,0 103.484,0.83702,0 103.62059,1.45642,0 103.75633,2.07589,0 103.89102,2.69549,0 104.02477,3.31516,0 104.15762,3.93492,0 104.28959,4.55476,0 108.10567,3.73708,0 107.97017,3.11327,0 107.83423,2.48951,0 107.69781,1.86581,0 107.56091,1.24216,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-25-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-29T22:32:56.263Z
+Frame Stop UTC Time: 2018-12-29T22:34:11.263Z
+Frame Start Abs. Orbit: 57643.491466943
+Frame Start Cycle, Rel. Orbit: 167, 126.491466943
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.28959,4.55476,0 108.10567,3.73708,0 107.13189,-0.69605,0 103.33143,0.15052,0 104.28959,4.55476,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-25-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-29T22:34:03.763Z
+Frame Stop UTC Time: 2018-12-29T22:35:18.763Z
+Frame Start Abs. Orbit: 57643.502631286
+Frame Start Cycle, Rel. Orbit: 167, 126.502631286
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.42941,0.59073,0 107.23044,-0.25287,0 106.23084,-4.68278,0 102.42575,-3.808670000000001,0 103.42941,0.59073,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-26</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-26</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-26
+Start UTC Time: 2018-12-30T11:11:15.264Z
+Stop UTC Time: 2018-12-30T11:12:30.264Z
+Start Abs. Orbit: 57651.017538065
+Start Cycle, Rel. Orbit: 167, 134.017538065
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.69346,12.42822,0 108.70668,12.36089,0 108.82891,11.74049,0 108.95182,11.12011,0 109.07543,10.49975,0 109.19975,9.87942,0 109.32481,9.259119999999999,0 109.45094,8.63893,0 109.57749,8.01871,0 105.73337,7.222769999999999,0 105.60031,7.84679,0 105.46721,8.47077,0 105.33471,9.09482,0 105.20246,9.71889,0 105.07045,10.34297,0 104.93865,10.96705,0 104.80705,11.59113,0 104.79278,11.65886,0 108.69346,12.42822,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-26-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-30T11:11:15.264Z
+Frame Stop UTC Time: 2018-12-30T11:12:30.264Z
+Frame Start Abs. Orbit: 57651.017538065
+Frame Start Cycle, Rel. Orbit: 167, 134.017538065
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.79278,11.65886,0 108.69346,12.42822,0 109.57749,8.01871,0 105.73337,7.222769999999999,0 104.79278,11.65886,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-27</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-27</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-27
+Start UTC Time: 2018-12-30T11:13:32.506Z
+Stop UTC Time: 2018-12-30T11:14:47.506Z
+Start Abs. Orbit: 57651.040238709
+Start Cycle, Rel. Orbit: 167, 134.040238709
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.01838,15.34011,0 103.8876,15.96411,0 103.75685,16.58808,0 103.62611,17.21202,0 103.49538,17.83593,0 103.36461,18.45981,0 103.23308,19.08351,0 103.1022,19.70731,0 103.08799,19.775,0 107.15904,20.49797,0 107.17143,20.43065,0 107.28591,19.81034,0 107.40167,19.19013,0 107.51721,18.56976,0 107.63329,17.94938,0 107.74994,17.32897,0 107.86715,16.70855,0 107.98495,16.08812,0 104.01838,15.34011,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-27-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-30T11:13:32.506Z
+Frame Stop UTC Time: 2018-12-30T11:14:47.506Z
+Frame Start Abs. Orbit: 57651.040238709
+Frame Start Cycle, Rel. Orbit: 167, 134.040238709
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.08799,19.775,0 107.15904,20.49797,0 107.98495,16.08812,0 104.01838,15.34011,0 103.08799,19.775,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-28</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-28</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-28
+Start UTC Time: 2018-12-30T21:58:57.900Z
+Stop UTC Time: 2018-12-30T22:00:12.900Z
+Start Abs. Orbit: 57657.445964322
+Start Cycle, Rel. Orbit: 167, 140.445964322
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								118.37284,17.51104,0 118.2421,16.88711,0 118.11136,16.26315,0 117.98059,15.63917,0 117.9664,15.57145,0 113.99513,16.31821,0 114.00792,16.38554,0 114.12544,17.00597,0 114.24238,17.62638,0 114.35876,18.24678,0 114.47458,18.86716,0 114.59066,19.48738,0 114.70542,20.10771,0 114.81965,20.728,0 118.8969,20.00624,0 118.76598,19.38247,0 118.63514,18.75865,0 118.50359,18.13493,0 118.37284,17.51104,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-28-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-30T21:58:57.900Z
+Frame Stop UTC Time: 2018-12-30T22:00:12.900Z
+Frame Start Abs. Orbit: 57657.445964322
+Frame Start Cycle, Rel. Orbit: 167, 140.445964322
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								114.81965,20.728,0 118.8969,20.00624,0 117.9664,15.57145,0 113.99513,16.31821,0 114.81965,20.728,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-29</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-29</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-29
+Start UTC Time: 2018-12-30T22:02:26.101Z
+Stop UTC Time: 2018-12-30T22:03:41.101Z
+Start Abs. Orbit: 57657.480402212
+Start Cycle, Rel. Orbit: 167, 140.480402212
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.90265,5.821139999999999,0 115.76849,5.1972,0 115.63395,4.5733,0 115.49877,3.94949,0 115.36342,3.32567,0 115.34871,3.25798,0 111.53538,4.07871,0 111.54972,4.14597,0 111.68138,4.76583,0 111.81244,5.38571,0 111.9424,6.005709999999999,0 112.07153,6.62577,0 112.19984,7.24588,0 112.32737,7.86605,0 112.45411,8.48626,0 116.30306,7.69312,0 116.16991,7.0691,0 116.03645,6.44511,0 115.90265,5.821139999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-29-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-30T22:02:26.101Z
+Frame Stop UTC Time: 2018-12-30T22:03:41.101Z
+Frame Start Abs. Orbit: 57657.480402212
+Frame Start Cycle, Rel. Orbit: 167, 140.480402212
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								112.45411,8.48626,0 116.30306,7.69312,0 115.34871,3.25798,0 111.53538,4.07871,0 112.45411,8.48626,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-30</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-30</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-30
+Start UTC Time: 2018-12-31T10:44:08.828Z
+Stop UTC Time: 2018-12-31T10:45:23.828Z
+Start Abs. Orbit: 57665.040170490
+Start Cycle, Rel. Orbit: 167, 148.040170490
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								114.51056,20.47372,0 114.52296,20.4064,0 114.63745,19.78609,0 114.75324,19.16588,0 114.8688,18.54551,0 114.9849,17.92513,0 115.10157,17.30472,0 115.2188,16.6843,0 115.33662,16.06387,0 111.37056,15.31572,0 111.23977,15.93972,0 111.10902,16.56369,0 110.97828,17.18764,0 110.84755,17.81155,0 110.71679,18.43542,0 110.58525,19.05913,0 110.45438,19.68293,0 110.44017,19.75062,0 114.51056,20.47372,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-30-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-31T10:44:08.828Z
+Frame Stop UTC Time: 2018-12-31T10:45:23.828Z
+Frame Start Abs. Orbit: 57665.040170490
+Frame Start Cycle, Rel. Orbit: 167, 148.040170490
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								110.44017,19.75062,0 114.51056,20.47372,0 115.33662,16.06387,0 111.37056,15.31572,0 110.44017,19.75062,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-31</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-31</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-31
+Start UTC Time: 2018-12-31T21:31:53.985Z
+Stop UTC Time: 2018-12-31T21:34:16.485Z
+Start Abs. Orbit: 57671.469013963
+Start Cycle, Rel. Orbit: 167, 154.469013963
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								122.78169,3.6536,0 122.71312,3.337829999999999,0 118.89935,4.15806,0 118.9661,4.47181,0 119.09756,5.09166,0 119.22792,5.71163,0 119.35744,6.33166,0 119.48614,6.95175,0 119.61404,7.571889999999999,0 119.74115,8.192080000000001,0 119.86789,8.81223,0 119.99348,9.432499999999999,0 120.11833,10.05281,0 120.24245,10.67315,0 120.36587,11.29352,0 120.48859,11.91391,0 120.61116,12.53422,0 124.51343,11.7654,0 124.38137,11.14143,0 124.24963,10.51734,0 124.11767,9.89326,0 123.98549,9.26919,0 123.85306,8.64513,0 123.72036,8.02108,0 123.587,7.397130000000001,0 123.45371,6.77313,0 123.32009,6.149149999999999,0 123.18612,5.52519,0 123.05178,4.90127,0 122.91706,4.27739,0 122.78169,3.6536,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-31-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-31T21:31:53.985Z
+Frame Stop UTC Time: 2018-12-31T21:33:08.985Z
+Frame Start Abs. Orbit: 57671.469013963
+Frame Start Cycle, Rel. Orbit: 167, 154.469013963
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.61116,12.53422,0 124.51343,11.7654,0 123.57255,7.32942,0 119.7274,8.12477,0 120.61116,12.53422,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-31-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2018-12-31T21:33:01.485Z
+Frame Stop UTC Time: 2018-12-31T21:34:16.485Z
+Frame Start Abs. Orbit: 57671.480178793
+Frame Start Cycle, Rel. Orbit: 167, 154.480178793
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								119.81734,8.565659999999999,0 123.66714,7.773,0 122.71312,3.337829999999999,0 118.89935,4.15806,0 119.81734,8.565659999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-32</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-32</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-32
+Start UTC Time: 2018-12-31T23:13:46.632Z
+Stop UTC Time: 2018-12-31T23:15:01.632Z
+Start Abs. Orbit: 57672.480123585
+Start Cycle, Rel. Orbit: 167, 155.480123585
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.71402999999999,4.17766,0 93.72836,4.24493,0 93.85988999999999,4.8648,0 93.99081,5.48469,0 94.12063000000001,6.1047,0 94.24962999999998,6.72477,0 94.37782,7.344890000000001,0 94.50521999999999,7.96506,0 94.63184,8.585279999999999,0 98.48184999999999,7.792739999999999,0 98.34875,7.16872,0 98.21534,6.54473,0 98.08159999999998,5.92075,0 97.94750000000001,5.29681,0 97.81302,4.67291,0 97.67790999999998,4.04909,0 97.54262000000001,3.42526,0 97.52792,3.35757,0 93.71402999999999,4.17766,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-32-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2018-12-31T23:13:46.632Z
+Frame Stop UTC Time: 2018-12-31T23:15:01.632Z
+Frame Start Abs. Orbit: 57672.480123585
+Frame Start Cycle, Rel. Orbit: 167, 155.480123585
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								94.63184,8.585279999999999,0 98.48184999999999,7.792739999999999,0 97.52792,3.35757,0 93.71402999999999,4.17766,0 94.63184,8.585279999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-33</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-33</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-33
+Start UTC Time: 2019-01-01T11:51:04.793Z
+Stop UTC Time: 2019-01-01T11:53:27.293Z
+Start Abs. Orbit: 57679.996130811
+Start Cycle, Rel. Orbit: 167, 162.996130811
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								98.92536000000001,8.787509999999999,0 98.98923000000001,8.47355,0 99.11599,7.853340000000001,0 99.24353000000001,7.233180000000001,0 99.37186,6.61307,0 99.50101000000001,5.99301,0 99.63097999999999,5.37302,0 99.76199,4.75313,0 99.89367,4.13327,0 100.02624,3.51348,0 100.1597,2.89378,0 100.29409,2.27416,0 100.42941,1.65463,0 100.56569,1.0352,0 100.70295,0.4158700000000001,0 96.90214,-0.42885,0 96.76382000000001,0.19463,0 96.62605000000001,0.81818,0 96.48880999999999,1.44179,0 96.35207,2.06546,0 96.21579999999999,2.68918,0 96.08,3.31295,0 95.94464000000001,3.936770000000001,0 95.80952000000001,4.56059,0 95.67497,5.18449,0 95.54080999999999,5.80843,0 95.407,6.4324,0 95.27352999999999,7.05639,0 95.14037999999999,7.68041,0 95.0731,7.99628,0 98.92536000000001,8.787509999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-33-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-01T11:51:04.793Z
+Frame Stop UTC Time: 2019-01-01T11:52:19.793Z
+Frame Start Abs. Orbit: 57679.996130811
+Frame Start Cycle, Rel. Orbit: 167, 162.996130811
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								95.92998,4.00447,0 99.74775,4.8204,0 100.70295,0.4158700000000001,0 96.90214,-0.42885,0 95.92998,4.00447,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-33-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-01T11:52:12.293Z
+Frame Stop UTC Time: 2019-01-01T11:53:27.293Z
+Frame Start Abs. Orbit: 57680.007296165
+Frame Start Cycle, Rel. Orbit: 167, 163.007296165
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								95.0731,7.99628,0 98.92536000000001,8.787509999999999,0 99.8412,4.37976,0 96.02612000000001,3.56102,0 95.0731,7.99628,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-34</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-34</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-34
+Start UTC Time: 2019-01-01T11:54:30.765Z
+Stop UTC Time: 2019-01-01T11:55:45.765Z
+Start Abs. Orbit: 57680.030199641
+Start Cycle, Rel. Orbit: 167, 163.030199641
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								94.27763000000002,11.75049,0 94.14623999999999,12.37457,0 94.01501000000002,12.99865,0 93.88390999999999,13.62271,0 93.75292,14.24676,0 93.62202000000001,14.87079,0 93.49060999999999,15.49469,0 93.35982999999999,16.11868,0 93.34564,16.18639,0 97.32995,16.92957,0 97.34269000000002,16.86224,0 97.46034,16.24181,0 97.57919999999999,15.62149,0 97.69804000000001,15.00105,0 97.8175,14.38061,0 97.93759,13.76017,0 98.05833,13.13974,0 98.17971,12.51932,0 94.27763000000002,11.75049,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-34-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-01T11:54:30.765Z
+Frame Stop UTC Time: 2019-01-01T11:55:45.765Z
+Frame Start Abs. Orbit: 57680.030199641
+Frame Start Cycle, Rel. Orbit: 167, 163.030199641
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.34564,16.18639,0 97.32995,16.92957,0 98.17971,12.51932,0 94.27763000000002,11.75049,0 93.34564,16.18639,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-35</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-35</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-35
+Start UTC Time: 2019-01-01T22:41:25.611Z
+Stop UTC Time: 2019-01-01T22:42:40.611Z
+Start Abs. Orbit: 57686.450721232
+Start Cycle, Rel. Orbit: 167, 169.450721232
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.52106,15.81019,0 107.39026,15.18618,0 107.25877,14.56228,0 107.12782,13.93824,0 107.11361,13.87052,0 103.17554,14.62706,0 103.18851,14.69439,0 103.30766,15.31483,0 103.42687,15.93515,0 103.54481,16.55558,0 103.66217,17.17601,0 103.77896,17.79642,0 103.89518,18.41681,0 104.01086,19.03718,0 108.04405,18.30592,0 107.9133,17.68203,0 107.78256,17.05811,0 107.65182,16.43416,0 107.52106,15.81019,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-35-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-01T22:41:25.611Z
+Frame Stop UTC Time: 2019-01-01T22:42:40.611Z
+Frame Start Abs. Orbit: 57686.450721232
+Frame Start Cycle, Rel. Orbit: 167, 169.450721232
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.01086,19.03718,0 108.04405,18.30592,0 107.11361,13.87052,0 103.17554,14.62706,0 104.01086,19.03718,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-36</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-36</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-36
+Start UTC Time: 2019-01-02T09:45:25.308Z
+Stop UTC Time: 2019-01-02T09:46:40.308Z
+Start Abs. Orbit: 57693.040668551
+Start Cycle, Rel. Orbit: 167, 176.040668551
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								125.37358,18.61346,0 125.24203,19.23715,0 125.11113,19.86094,0 125.09692,19.92863,0 129.17212,20.65074,0 129.1845,20.58343,0 129.29885,19.96312,0 129.41448,19.34291,0 129.52988,18.72256,0 129.64583,18.10218,0 129.76234,17.48178,0 129.87941,16.86136,0 129.99706,16.24093,0 126.02735,15.4938,0 125.89657,16.1178,0 125.76583,16.74176,0 125.6351,17.36569,0 125.50435,17.9896,0 125.37358,18.61346,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-36-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-02T09:45:25.308Z
+Frame Stop UTC Time: 2019-01-02T09:46:40.308Z
+Frame Start Abs. Orbit: 57693.040668551
+Frame Start Cycle, Rel. Orbit: 167, 176.040668551
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								125.09692,19.92863,0 129.17212,20.65074,0 129.99706,16.24093,0 126.02735,15.4938,0 125.09692,19.92863,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-37</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-37</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-37
+Start UTC Time: 2019-01-02T11:19:26.993Z
+Stop UTC Time: 2019-01-02T11:20:41.993Z
+Start Abs. Orbit: 57693.973879886
+Start Cycle, Rel. Orbit: 167, 176.973879886
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.844,-3.07668,0 108.85961,-3.14381,0 109.00406,-3.76231,0 109.14966,-4.38067,0 109.29645,-4.99887,0 109.44453,-5.6169,0 109.59376,-6.23478,0 109.74426,-6.852500000000001,0 109.89605,-7.470030000000001,0 106.07087,-8.37125,0 105.92353,-7.749,0 105.77705,-7.12663,0 105.6314,-6.50414,0 105.48648,-5.88156,0 105.34241,-5.25884,0 105.19909,-4.63602,0 105.05649,-4.01311,0 105.04106,-3.9455,0 108.844,-3.07668,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-37-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-02T11:19:26.993Z
+Frame Stop UTC Time: 2019-01-02T11:20:41.993Z
+Frame Start Abs. Orbit: 57693.973879886
+Frame Start Cycle, Rel. Orbit: 167, 176.973879886
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								105.04106,-3.9455,0 108.844,-3.07668,0 109.89605,-7.470030000000001,0 106.07087,-8.37125,0 105.04106,-3.9455,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-38</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-38</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-38
+Start UTC Time: 2019-01-02T11:23:33.227Z
+Stop UTC Time: 2019-01-02T11:24:48.227Z
+Start Abs. Orbit: 57694.014606606
+Start Cycle, Rel. Orbit: 167, 177.014606606
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								101.8656,10.61058,0 105.75071,11.38614,0 105.76406,11.31881,0 105.88745,10.69845,0 106.01154,10.07811,0 106.13636,9.457800000000001,0 106.26225,8.837590000000001,0 106.38856,8.21735,0 106.51564,7.59716,0 106.64351,6.97702,0 102.80929,6.17465,0 102.67569,6.79863,0 102.54241,7.42264,0 102.40943,8.046670000000001,0 102.27643,8.67065,0 102.14401,9.29471,0 102.01184,9.91878,0 101.8799,10.54286,0 101.8656,10.61058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-38-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-02T11:23:33.227Z
+Frame Stop UTC Time: 2019-01-02T11:24:48.227Z
+Frame Start Abs. Orbit: 57694.014606606
+Frame Start Cycle, Rel. Orbit: 167, 177.014606606
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								101.8656,10.61058,0 105.75071,11.38614,0 106.64351,6.97702,0 102.80929,6.17465,0 101.8656,10.61058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-39</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-39</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-39
+Start UTC Time: 2019-01-02T22:12:40.663Z
+Stop UTC Time: 2019-01-02T22:13:55.663Z
+Start Abs. Orbit: 57700.457059384
+Start Cycle, Rel. Orbit: 167, 183.457059384
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								114.52312,14.16807,0 114.39211,13.54402,0 114.26099,12.91995,0 114.12974,12.29588,0 113.99833,11.6718,0 113.98406,11.60407,0 110.0843,12.37383,0 110.09752,12.44116,0 110.21899,13.06158,0 110.33981,13.68201,0 110.45998,14.30245,0 110.57952,14.92289,0 110.69845,15.54333,0 110.81743,16.16365,0 110.93516,16.78408,0 114.91628,16.03999,0 114.7855,15.416,0 114.65403,14.79211,0 114.52312,14.16807,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-39-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-02T22:12:40.663Z
+Frame Stop UTC Time: 2019-01-02T22:13:55.663Z
+Frame Start Abs. Orbit: 57700.457059384
+Frame Start Cycle, Rel. Orbit: 167, 183.457059384
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								110.93516,16.78408,0 114.91628,16.03999,0 113.98406,11.60407,0 110.0843,12.37383,0 110.93516,16.78408,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-40</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-40</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-40
+Start UTC Time: 2019-01-03T10:56:45.309Z
+Stop UTC Time: 2019-01-03T10:58:00.309Z
+Start Abs. Orbit: 57708.040302065
+Start Cycle, Rel. Orbit: 167, 191.040302065
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.0816,15.98676,0 107.95085,16.61073,0 107.82011,17.23467,0 107.68938,17.85858,0 107.55861,18.48246,0 107.42708,19.10616,0 107.29619,19.72995,0 107.28198,19.79764,0 111.35364,20.52048,0 111.36603,20.45317,0 111.48049,19.83286,0 111.59623,19.21265,0 111.71175,18.59228,0 111.82782,17.9719,0 111.94444,17.35149,0 112.06163,16.73108,0 112.17941,16.11065,0 108.21238,15.36277,0 108.0816,15.98676,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-40-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-03T10:56:45.309Z
+Frame Stop UTC Time: 2019-01-03T10:58:00.309Z
+Frame Start Abs. Orbit: 57708.040302065
+Frame Start Cycle, Rel. Orbit: 167, 191.040302065
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.28198,19.79764,0 111.35364,20.52048,0 112.17941,16.11065,0 108.21238,15.36277,0 107.28198,19.79764,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-41</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-41</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-41
+Start UTC Time: 2019-01-03T21:45:40.787Z
+Stop UTC Time: 2019-01-03T21:46:55.787Z
+Start Abs. Orbit: 57714.480776997
+Start Cycle, Rel. Orbit: 167, 197.480776997
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								119.93838,5.06322,0 119.80376,4.43932,0 119.66849,3.81552,0 119.53304,3.19171,0 119.51832,3.12402,0 115.70571,3.9456,0 115.72007,4.01287,0 115.85193,4.63271,0 115.98317,5.25258,0 116.1133,5.87256,0 116.24261,6.49261,0 116.3711,7.11271,0 116.4988,7.73286,0 116.62571,8.353059999999999,0 120.47324,7.55911,0 120.34003,6.935100000000001,0 120.20649,6.31111,0 120.07262,5.68715,0 119.93838,5.06322,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-41-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-03T21:45:40.787Z
+Frame Stop UTC Time: 2019-01-03T21:46:55.787Z
+Frame Start Abs. Orbit: 57714.480776997
+Frame Start Cycle, Rel. Orbit: 167, 197.480776997
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								116.62571,8.353059999999999,0 120.47324,7.55911,0 119.51832,3.12402,0 115.70571,3.9456,0 116.62571,8.353059999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-42</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-42</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-42
+Start UTC Time: 2019-01-03T23:24:05.212Z
+Stop UTC Time: 2019-01-03T23:26:27.712Z
+Start Abs. Orbit: 57715.457445376
+Start Cycle, Rel. Orbit: 167, 198.457445376
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								95.99468999999999,10.90979,0 95.86287,10.28571,0 95.73083,9.661630000000001,0 95.59856000000002,9.037559999999999,0 95.46603,8.413510000000001,0 95.33286,7.78955,0 95.26552,7.47367,0 91.41888,8.268140000000001,0 91.48287999999998,8.582100000000001,0 91.60914,9.20228,0 91.73425999999999,9.82258,0 91.85866,10.4429,0 91.98233000000001,11.06326,0 92.10531000000002,11.68364,0 92.22812999999999,12.30394,0 92.34975,12.92436,0 92.47070999999998,13.54479,0 92.59102,14.16523,0 92.71070000000002,14.78567,0 92.82976000000001,15.40611,0 92.94888,16.02643,0 93.06674,16.64686,0 97.04492999999999,15.90198,0 96.91413,15.27798,0 96.78265,14.65409,0 96.65171999999998,14.03005,0 96.52069,13.40599,0 96.38954000000001,12.78193,0 96.25826000000001,12.15785,0 96.12680999999999,11.53377,0 95.99468999999999,10.90979,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-42-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-03T23:24:05.212Z
+Frame Stop UTC Time: 2019-01-03T23:25:20.212Z
+Frame Start Abs. Orbit: 57715.457445376
+Frame Start Cycle, Rel. Orbit: 167, 198.457445376
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.06674,16.64686,0 97.04492999999999,15.90198,0 96.11254,11.46604,0 92.21489,12.23662,0 93.06674,16.64686,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-42-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-03T23:25:12.712Z
+Frame Stop UTC Time: 2019-01-03T23:26:27.712Z
+Frame Start Abs. Orbit: 57715.468610519
+Frame Start Cycle, Rel. Orbit: 167, 198.468610519
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								92.30146999999998,12.67764,0 96.20600999999999,11.90967,0 95.26552,7.47367,0 91.41888,8.268140000000001,0 92.30146999999998,12.67764,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-43</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-43</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-43
+Start UTC Time: 2019-01-04T10:26:13.649Z
+Stop UTC Time: 2019-01-04T10:27:28.649Z
+Start Abs. Orbit: 57722.028988909
+Start Cycle, Rel. Orbit: 167, 205.028988909
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.49175,15.68571,0 115.47756,15.75343,0 119.45267,16.49907,0 119.46544,16.43174,0 119.58412,15.81142,0 119.70278,15.19098,0 119.82205,14.57054,0 119.94195,13.9501,0 120.06248,13.32967,0 120.18366,12.70925,0 120.30599,12.08892,0 116.41053,11.31755,0 116.27857,11.94154,0 116.14724,12.56562,0 116.01605,13.18969,0 115.88498,13.81375,0 115.75402,14.43779,0 115.62315,15.06182,0 115.49175,15.68571,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-43-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-04T10:26:13.649Z
+Frame Stop UTC Time: 2019-01-04T10:27:28.649Z
+Frame Start Abs. Orbit: 57722.028988909
+Frame Start Cycle, Rel. Orbit: 167, 205.028988909
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.47756,15.75343,0 119.45267,16.49907,0 120.30599,12.08892,0 116.41053,11.31755,0 115.47756,15.75343,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-44</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-44</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-44
+Start UTC Time: 2019-01-04T12:05:49.888Z
+Stop UTC Time: 2019-01-04T12:07:04.888Z
+Start Abs. Orbit: 57723.017536187
+Start Cycle, Rel. Orbit: 167, 206.017536187
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.95676,7.84612,0 91.82367000000001,8.470090000000001,0 91.69117,9.094150000000001,0 91.55892,9.718220000000001,0 91.42691000000001,10.3423,0 91.29510999999999,10.96638,0 91.16351,11.59046,0 91.14924000000001,11.65819,0 95.04989999999999,12.42755,0 95.06313,12.36022,0 95.18535,11.73982,0 95.30826000000002,11.11944,0 95.43187999999999,10.49908,0 95.5562,9.87875,0 95.68126,9.25845,0 95.80738,8.638260000000001,0 95.93393999999999,8.018039999999999,0 92.08983000000001,7.2221,0 91.95676,7.84612,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-44-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-04T12:05:49.888Z
+Frame Stop UTC Time: 2019-01-04T12:07:04.888Z
+Frame Start Abs. Orbit: 57723.017536187
+Frame Start Cycle, Rel. Orbit: 167, 206.017536187
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								91.14924000000001,11.65819,0 95.04989999999999,12.42755,0 95.93393999999999,8.018039999999999,0 92.08983000000001,7.2221,0 91.14924000000001,11.65819,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-45</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-45</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-45
+Start UTC Time: 2019-01-04T21:12:56.026Z
+Stop UTC Time: 2019-01-04T21:14:11.026Z
+Start Abs. Orbit: 57728.447448242
+Start Cycle, Rel. Orbit: 167, 211.447448242
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								130.06898,18.22834,0 129.93822,17.60445,0 129.80749,16.98053,0 129.67675,16.35658,0 129.54598,15.73259,0 129.41518,15.10859,0 129.40098,15.04087,0 125.4405,15.79067,0 125.45334,15.858,0 125.57136,16.47844,0 125.68879,17.09886,0 125.80565,17.71927,0 125.92194,18.33967,0 126.03768,18.96004,0 126.15369,19.58026,0 126.26836,20.20058,0 130.33139,19.47586,0 130.20053,18.85205,0 130.06898,18.22834,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-45-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-04T21:12:56.026Z
+Frame Stop UTC Time: 2019-01-04T21:14:11.026Z
+Frame Start Abs. Orbit: 57728.447448242
+Frame Start Cycle, Rel. Orbit: 167, 211.447448242
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								126.26836,20.20058,0 130.33139,19.47586,0 129.40098,15.04087,0 125.4405,15.79067,0 126.26836,20.20058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-46</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-46</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-46
+Start UTC Time: 2019-01-04T21:17:19.558Z
+Stop UTC Time: 2019-01-04T21:18:34.558Z
+Start Abs. Orbit: 57728.491037844
+Start Cycle, Rel. Orbit: 167, 211.491037844
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								122.95039,3.46754,0 123.08302,4.08732,0 123.21477,4.70717,0 127.03179,3.89046,0 126.8964,3.26664,0 126.76056,2.64287,0 126.62427,2.01915,0 126.48749,1.39549,0 126.3502,0.7718799999999999,0 126.21228,0.14837,0 126.07393,-0.47511,0 126.05888,-0.54276,0 122.25825,0.30277,0 122.27321,0.36998,0 122.41054,0.9892999999999999,0 122.54701,1.6087,0 122.6824,2.22822,0 122.81686,2.84784,0 122.95039,3.46754,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-46-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-04T21:17:19.558Z
+Frame Stop UTC Time: 2019-01-04T21:18:34.558Z
+Frame Start Abs. Orbit: 57728.491037844
+Frame Start Cycle, Rel. Orbit: 167, 211.491037844
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								123.21477,4.70717,0 127.03179,3.89046,0 126.05888,-0.54276,0 122.25825,0.30277,0 123.21477,4.70717,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-47</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-47</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-47
+Start UTC Time: 2019-01-05T09:54:40.527Z
+Stop UTC Time: 2019-01-05T09:55:55.527Z
+Start Abs. Orbit: 57736.007510399
+Start Cycle, Rel. Orbit: 167, 219.007510399
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.72574,6.75713,0 124.59244,7.381139999999999,0 124.45945,8.00517,0 124.44504,8.072889999999999,0 128.29814,8.86365,0 128.31181,8.796340000000001,0 128.43817,8.17611,0 128.5653,7.555920000000001,0 128.69322,6.93578,0 128.82194,6.3157,0 128.95148,5.69567,0 129.08204,5.07575,0 129.21328,4.45585,0 125.39775,3.6376,0 125.2626,4.26144,0 125.12769,4.88528,0 124.99335,5.5092,0 124.85937,6.133149999999999,0 124.72574,6.75713,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-47-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-05T09:54:40.527Z
+Frame Stop UTC Time: 2019-01-05T09:55:55.527Z
+Frame Start Abs. Orbit: 57736.007510399
+Frame Start Cycle, Rel. Orbit: 167, 219.007510399
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								124.44504,8.072889999999999,0 128.29814,8.86365,0 129.21328,4.45585,0 125.39775,3.6376,0 124.44504,8.072889999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-48</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-48</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-48
+Start UTC Time: 2019-01-05T11:37:16.988Z
+Stop UTC Time: 2019-01-05T11:38:31.988Z
+Start Abs. Orbit: 57737.025866514
+Start Cycle, Rel. Orbit: 167, 220.025866514
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								98.54034999999999,11.44917,0 98.40843,12.07315,0 98.27712000000001,12.69723,0 98.14596,13.3213,0 98.01492,13.94536,0 97.88397999999999,14.5694,0 97.86978000000001,14.63712,0 101.82238,15.38916,0 101.83527,15.32183,0 101.95441,14.70139,0 102.07417,14.08095,0 102.19457,13.46051,0 102.31562,12.84009,0 102.4378,12.21976,0 102.56018,11.59936,0 102.68325,10.97899,0 98.80383000000001,10.201,0 98.67198999999999,10.82508,0 98.54034999999999,11.44917,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-48-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-05T11:37:16.988Z
+Frame Stop UTC Time: 2019-01-05T11:38:31.988Z
+Frame Start Abs. Orbit: 57737.025866514
+Frame Start Cycle, Rel. Orbit: 167, 220.025866514
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								97.86978000000001,14.63712,0 101.82238,15.38916,0 102.68325,10.97899,0 98.80383000000001,10.201,0 97.86978000000001,14.63712,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-49</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-49</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-49
+Start UTC Time: 2019-01-05T22:24:09.924Z
+Stop UTC Time: 2019-01-05T22:25:24.924Z
+Start Abs. Orbit: 57743.446072394
+Start Cycle, Rel. Orbit: 167, 226.446072394
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.6912,16.27979,0 107.704,16.34712,0 107.82155,16.96755,0 107.93853,17.58796,0 108.05494,18.20836,0 108.1708,18.82874,0 108.28691,19.44896,0 108.4017,20.06929,0 108.51596,20.68959,0 112.59217,19.96762,0 112.46125,19.34384,0 112.33041,18.72002,0 112.19887,18.0963,0 112.06812,17.4724,0 111.93738,16.84847,0 111.80664,16.22451,0 111.67587,15.60053,0 111.66167,15.53281,0 107.6912,16.27979,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-49-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-05T22:24:09.924Z
+Frame Stop UTC Time: 2019-01-05T22:25:24.924Z
+Frame Start Abs. Orbit: 57743.446072394
+Frame Start Cycle, Rel. Orbit: 167, 226.446072394
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.51596,20.68959,0 112.59217,19.96762,0 111.66167,15.53281,0 107.6912,16.27979,0 108.51596,20.68959,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-50</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-50</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-50
+Start UTC Time: 2019-01-05T22:28:45.229Z
+Stop UTC Time: 2019-01-05T22:30:00.229Z
+Start Abs. Orbit: 57743.491609377
+Start Cycle, Rel. Orbit: 167, 226.491609377
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								108.46259,0.5677,0 108.3246,-0.05582,0 108.18606,-0.67927,0 108.17099,-0.74693,0 104.37058,0.09998,0 104.38558,0.16718,0 104.52324,0.78647,0 104.65991,1.40586,0 104.79573,2.02533,0 104.93049,2.64492,0 105.06432,3.26459,0 105.19725,3.88434,0 105.32928,4.50417,0 109.14507,3.68616,0 109.00953,3.06236,0 108.87354,2.43861,0 108.73709,1.81491,0 108.60015,1.19126,0 108.46259,0.5677,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-50-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-05T22:28:45.229Z
+Frame Stop UTC Time: 2019-01-05T22:30:00.229Z
+Frame Start Abs. Orbit: 57743.491609377
+Frame Start Cycle, Rel. Orbit: 167, 226.491609377
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								105.32928,4.50417,0 109.14507,3.68616,0 108.17099,-0.74693,0 104.37058,0.09998,0 105.32928,4.50417,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-51</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-51</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-51
+Start UTC Time: 2019-01-06T11:05:55.710Z
+Stop UTC Time: 2019-01-06T11:07:10.710Z
+Start Abs. Orbit: 57751.006347080
+Start Cycle, Rel. Orbit: 167, 234.006347080
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								110.53979,8.45021,0 110.55352,8.382910000000001,0 110.68039,7.7627,0 110.80804,7.14255,0 110.9365,6.52245,0 111.06576,5.9024,0 111.19604,5.28245,0 111.32699,4.66253,0 111.4588,4.04268,0 107.64563,3.22178,0 107.5102,3.8456,0 107.3752,4.46945,0 107.24042,5.09331,0 107.1062,5.71724,0 106.97234,6.3412,0 106.83883,6.96519,0 106.70563,7.589199999999999,0 106.69119,7.65692,0 110.53979,8.45021,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-51-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-06T11:05:55.710Z
+Frame Stop UTC Time: 2019-01-06T11:07:10.710Z
+Frame Start Abs. Orbit: 57751.006347080
+Frame Start Cycle, Rel. Orbit: 167, 234.006347080
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								106.69119,7.65692,0 110.53979,8.45021,0 111.4588,4.04268,0 107.64563,3.22178,0 106.69119,7.65692,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-52</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-52</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-52
+Start UTC Time: 2019-01-06T11:09:21.776Z
+Stop UTC Time: 2019-01-06T11:10:36.776Z
+Start Abs. Orbit: 57751.040431403
+Start Cycle, Rel. Orbit: 167, 234.040431403
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								105.05437,15.40901,0 104.92359,16.03301,0 104.79285,16.65697,0 104.66211,17.28091,0 104.53137,17.90482,0 104.40061,18.52869,0 104.26907,19.15239,0 104.13818,19.77618,0 104.12397,19.84387,0 108.19687,20.56645,0 108.20926,20.49914,0 108.32368,19.87883,0 108.43938,19.25862,0 108.55486,18.63826,0 108.67088,18.01787,0 108.78746,17.39747,0 108.90461,16.77706,0 109.02235,16.15663,0 105.05437,15.40901,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-52-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-06T11:09:21.776Z
+Frame Stop UTC Time: 2019-01-06T11:10:36.776Z
+Frame Start Abs. Orbit: 57751.040431403
+Frame Start Cycle, Rel. Orbit: 167, 234.040431403
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.12397,19.84387,0 108.19687,20.56645,0 109.02235,16.15663,0 105.05437,15.40901,0 104.12397,19.84387,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-53</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-53</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-53
+Start UTC Time: 2019-01-06T21:57:07.076Z
+Stop UTC Time: 2019-01-06T21:59:29.576Z
+Start Abs. Orbit: 57757.469298646
+Start Cycle, Rel. Orbit: 167, 240.469298646
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								117.00163,6.047359999999999,0 116.86761,5.42342,0 116.73321,4.7995,0 116.59818,4.17568,0 116.46298,3.55184,0 116.39438,3.23608,0 112.58117,4.05695,0 112.64799,4.3707,0 112.77934,4.99059,0 112.91009,5.61049,0 113.03974,6.230509999999999,0 113.16858,6.85059,0 113.2966,7.47072,0 113.42384,8.090909999999999,0 113.5507,8.71105,0 113.67642,9.33132,0 113.80138,9.95163,0 113.92563,10.57196,0 114.04916,11.19232,0 114.17199,11.81271,0 114.29467,12.43301,0 118.19536,11.6636,0 118.06327,11.03962,0 117.93149,10.41554,0 117.7995,9.791460000000001,0 117.66728,9.167389999999999,0 117.53481,8.543329999999999,0 117.40207,7.919290000000001,0 117.26866,7.295340000000001,0 117.13531,6.67134,0 117.00163,6.047359999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-53-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-06T21:57:07.076Z
+Frame Stop UTC Time: 2019-01-06T21:58:22.076Z
+Frame Start Abs. Orbit: 57757.469298646
+Frame Start Cycle, Rel. Orbit: 167, 240.469298646
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								114.29467,12.43301,0 118.19536,11.6636,0 117.2542,7.22763,0 113.41007,8.0236,0 114.29467,12.43301,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-53-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-06T21:58:14.576Z
+Frame Stop UTC Time: 2019-01-06T21:59:29.576Z
+Frame Start Abs. Orbit: 57757.480463476
+Frame Start Cycle, Rel. Orbit: 167, 240.480463476
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								113.50011,8.46448,0 117.34882,7.67121,0 116.39438,3.23608,0 112.58117,4.05695,0 113.50011,8.46448,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-54</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-54</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-54
+Start UTC Time: 2019-01-07T10:34:02.530Z
+Stop UTC Time: 2019-01-07T10:35:17.530Z
+Start Abs. Orbit: 57764.981550586
+Start Cycle, Rel. Orbit: 167, 247.981550586
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								119.76833,-0.35603,0 119.78342,-0.42322,0 119.92307,-1.04229,0 120.06377,-1.66125,0 120.20564,-2.28005,0 120.34851,-2.89875,0 120.49251,-3.51731,0 120.63765,-4.13573,0 120.78397,-4.75399,0 116.97512,-5.63489,0 116.83135,-5.01213,0 116.68832,-4.38927,0 116.54601,-3.76631,0 116.40439,-3.14326,0 116.26335,-2.52014,0 116.12304,-1.89692,0 115.98335,-1.27361,0 115.96823,-1.20596,0 119.76833,-0.35603,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-54-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-07T10:34:02.530Z
+Frame Stop UTC Time: 2019-01-07T10:35:17.530Z
+Frame Start Abs. Orbit: 57764.981550586
+Frame Start Cycle, Rel. Orbit: 167, 247.981550586
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.96823,-1.20596,0 119.76833,-0.35603,0 120.78397,-4.75399,0 116.97512,-5.63489,0 115.96823,-1.20596,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-55</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-55</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-55
+Start UTC Time: 2019-01-07T21:26:31.032Z
+Stop UTC Time: 2019-01-07T21:27:46.032Z
+Start Abs. Orbit: 57771.457260256
+Start Cycle, Rel. Orbit: 167, 254.457260256
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.61608,12.30242,0 121.62931,12.36975,0 121.75085,12.99017,0 121.87174,13.6106,0 121.99199,14.23104,0 122.1116,14.85148,0 122.2306,15.47192,0 122.34965,16.09224,0 122.46745,16.71267,0 126.44704,15.96817,0 126.31625,15.34417,0 126.18477,14.72028,0 126.05385,14.09624,0 125.92284,13.47219,0 125.7917,12.84812,0 125.66043,12.22405,0 125.52901,11.59997,0 125.51473,11.53224,0 121.61608,12.30242,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-55-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-07T21:26:31.032Z
+Frame Stop UTC Time: 2019-01-07T21:27:46.032Z
+Frame Start Abs. Orbit: 57771.457260256
+Frame Start Cycle, Rel. Orbit: 167, 254.457260256
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								122.46745,16.71267,0 126.44704,15.96817,0 125.51473,11.53224,0 121.61608,12.30242,0 122.46745,16.71267,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-56</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-56</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-56
+Start UTC Time: 2019-01-07T21:31:02.328Z
+Stop UTC Time: 2019-01-07T21:32:17.328Z
+Start Abs. Orbit: 57771.502133448
+Start Cycle, Rel. Orbit: 167, 254.502133448
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								118.21165,-3.63226,0 118.22736,-3.56514,0 118.37144,-2.94659,0 118.5144,-2.3279,0 118.65624,-1.70908,0 118.79702,-1.09014,0 118.93675,-0.47107,0 119.07545,0.14811,0 119.21314,0.7674,0 123.01446,-0.07502,0 122.87591,-0.69847,0 122.73677,-1.32185,0 122.59703,-1.94515,0 122.45668,-2.56837,0 122.3157,-3.19151,0 122.17402,-3.81455,0 122.03166,-4.4375,0 122.01616,-4.5051,0 118.21165,-3.63226,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-56-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-07T21:31:02.328Z
+Frame Stop UTC Time: 2019-01-07T21:32:17.328Z
+Frame Start Abs. Orbit: 57771.502133448
+Frame Start Cycle, Rel. Orbit: 167, 254.502133448
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								119.21314,0.7674,0 123.01446,-0.07502,0 122.01616,-4.5051,0 118.21165,-3.63226,0 119.21314,0.7674,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-57</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-57</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-57
+Start UTC Time: 2019-01-07T23:10:42.957Z
+Stop UTC Time: 2019-01-07T23:11:57.957Z
+Start Abs. Orbit: 57772.491407143
+Start Cycle, Rel. Orbit: 167, 255.491407143
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.89122999999999,0.17173,0 93.90621,0.23894,0 94.04376000000001,0.8582399999999999,0 94.18032000000001,1.47764,0 94.31602,2.09712,0 94.45067,2.71672,0 94.5844,3.3364,0 94.71722,3.95616,0 94.84915,4.576,0 98.66537,3.758449999999999,0 98.52988000000001,3.134640000000001,0 98.39394999999999,2.51089,0 98.25755,1.88718,0 98.12067,1.26353,0 97.98317,0.63996,0 97.84524,0.01643,0 97.70677000000001,-0.60703,0 97.69171,-0.67468,0 93.89122999999999,0.17173,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-57-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-07T23:10:42.957Z
+Frame Stop UTC Time: 2019-01-07T23:11:57.957Z
+Frame Start Abs. Orbit: 57772.491407143
+Frame Start Cycle, Rel. Orbit: 167, 255.491407143
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								94.84915,4.576,0 98.66537,3.758449999999999,0 97.69171,-0.67468,0 93.89122999999999,0.17173,0 94.84915,4.576,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-58</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-58</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-58
+Start UTC Time: 2019-01-08T10:07:10.455Z
+Stop UTC Time: 2019-01-08T10:09:32.955Z
+Start Abs. Orbit: 57779.006558086
+Start Cycle, Rel. Orbit: 167, 262.006558086
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.9183,5.16874,0 121.78412,5.79268,0 121.6503,6.41664,0 121.51683,7.04064,0 121.38367,7.66465,0 121.25049,8.28862,0 121.11791,8.91267,0 120.98559,9.53674,0 120.85351,10.16081,0 120.72166,10.78489,0 120.59,11.40898,0 120.52297,11.72479,0 124.42466,12.49377,0 124.48684,12.17981,0 124.60927,11.55941,0 124.73238,10.93904,0 124.8562,10.31869,0 124.98073,9.698370000000001,0 125.106,9.07808,0 125.23235,8.457890000000001,0 125.35913,7.83769,0 125.48669,7.21753,0 125.61504,6.597419999999999,0 125.74421,5.977359999999999,0 125.87421,5.35737,0 126.00523,4.73748,0 126.13694,4.11762,0 122.32335,3.297200000000001,0 122.18798,3.92102,0 122.05285,4.54484,0 121.9183,5.16874,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-58-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-08T10:07:10.455Z
+Frame Stop UTC Time: 2019-01-08T10:08:25.455Z
+Frame Start Abs. Orbit: 57779.006558086
+Frame Start Cycle, Rel. Orbit: 167, 262.006558086
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.36924,7.73237,0 125.21864,8.5252,0 126.13694,4.11762,0 122.32335,3.297200000000001,0 121.36924,7.73237,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-58-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-08T10:08:17.955Z
+Frame Stop UTC Time: 2019-01-08T10:09:32.955Z
+Frame Start Abs. Orbit: 57779.017722698
+Frame Start Cycle, Rel. Orbit: 167, 262.017722698
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.52297,11.72479,0 124.42466,12.49377,0 125.30862,8.08432,0 121.46384,7.28878,0 120.52297,11.72479,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-59</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-59</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-59
+Start UTC Time: 2019-01-08T22:39:03.238Z
+Stop UTC Time: 2019-01-08T22:41:25.738Z
+Start Abs. Orbit: 57786.468837299
+Start Cycle, Rel. Orbit: 167, 269.468837299
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								107.73474,11.82858,0 107.60269,11.2046,0 107.47097,10.58052,0 107.33904,9.956440000000001,0 107.20688,9.33236,0 107.07448,8.7083,0 106.94181,8.084250000000001,0 106.80848,7.4603,0 106.67522,6.83629,0 106.54163,6.21231,0 106.4077,5.58835,0 106.2734,4.96443,0 106.13872,4.34054,0 106.00339,3.71675,0 105.93484,3.40098,0 102.12072,4.2208,0 102.18742,4.53456,0 102.3188,5.15441,0 102.44907,5.77439,0 102.5785,6.39442,0 102.70712,7.01452,0 102.83494,7.63466,0 102.96198,8.254860000000001,0 103.08863,8.875019999999999,0 103.21415,9.4953,0 103.33892,10.11561,0 103.46298,10.73595,0 103.58632,11.35632,0 103.70897,11.97671,0 103.83147,12.59702,0 107.73474,11.82858,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-59-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-08T22:39:03.238Z
+Frame Stop UTC Time: 2019-01-08T22:40:18.238Z
+Frame Start Abs. Orbit: 57786.468837299
+Frame Start Cycle, Rel. Orbit: 167, 269.468837299
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.83147,12.59702,0 107.73474,11.82858,0 106.79403,7.39258,0 102.94823,8.18755,0 103.83147,12.59702,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-59-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-08T22:40:10.738Z
+Frame Stop UTC Time: 2019-01-08T22:41:25.738Z
+Frame Start Abs. Orbit: 57786.480002129
+Frame Start Cycle, Rel. Orbit: 167, 269.480002129
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.03812,8.628439999999999,0 106.8886,7.83617,0 105.93484,3.40098,0 102.12072,4.2208,0 103.03812,8.628439999999999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-60</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-60</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-60
+Start UTC Time: 2019-01-09T11:17:25.764Z
+Stop UTC Time: 2019-01-09T11:18:40.764Z
+Start Abs. Orbit: 57793.995490904
+Start Cycle, Rel. Orbit: 167, 276.995490904
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.79964,1.83678,0 104.66321,2.46048,0 104.52724,3.08423,0 104.39172,3.70804,0 104.37704,3.77573,0 108.19339,4.59311,0 108.20767,4.52584,0 108.33967,3.90601,0 108.47256,3.28625,0 108.60636,2.66658,0 108.74109,2.04699,0 108.87676,1.4275,0 109.0134,0.8080999999999999,0 109.15102,0.18881,0 105.35049,-0.65743,0 105.21197,-0.03398,0 105.074,0.58954,0 104.93657,1.21313,0 104.79964,1.83678,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-60-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-09T11:17:25.764Z
+Frame Stop UTC Time: 2019-01-09T11:18:40.764Z
+Frame Start Abs. Orbit: 57793.995490904
+Frame Start Cycle, Rel. Orbit: 167, 276.995490904
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								104.37704,3.77573,0 108.19339,4.59311,0 109.15102,0.18881,0 105.35049,-0.65743,0 104.37704,3.77573,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-61</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-61</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-61
+Start UTC Time: 2019-01-09T11:19:31.530Z
+Stop UTC Time: 2019-01-09T11:20:46.530Z
+Start Abs. Orbit: 57794.016293495
+Start Cycle, Rel. Orbit: 167, 277.016293495
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								106.68262,11.98579,0 106.6959,11.91846,0 106.81861,11.29808,0 106.94202,10.67771,0 107.06614,10.05737,0 107.19098,9.437060000000001,0 107.31689,8.81686,0 107.44323,8.196619999999999,0 107.57033,7.57644,0 103.73058,6.77777,0 103.59729,7.40178,0 103.46431,8.02581,0 103.3313,8.649789999999999,0 103.19887,9.27385,0 103.06669,9.897919999999999,0 102.93474,10.522,0 102.803,11.14608,0 102.78872,11.21381,0 106.68262,11.98579,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-61-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-09T11:19:31.530Z
+Frame Stop UTC Time: 2019-01-09T11:20:46.530Z
+Frame Start Abs. Orbit: 57794.016293495
+Frame Start Cycle, Rel. Orbit: 167, 277.016293495
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								102.78872,11.21381,0 106.68262,11.98579,0 107.57033,7.57644,0 103.73058,6.77777,0 102.78872,11.21381,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-62</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-62</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-62
+Start UTC Time: 2019-01-09T22:09:37.155Z
+Stop UTC Time: 2019-01-09T22:11:59.655Z
+Start Abs. Orbit: 57800.468371207
+Start Cycle, Rel. Orbit: 167, 283.468371207
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								113.38656,3.883350000000001,0 113.31808,3.56758,0 109.503,4.38634,0 109.56958,4.70011,0 109.70073,5.31998,0 109.83078,5.93997,0 109.95999,6.560030000000001,0 110.0884,7.18013,0 110.21601,7.80029,0 110.34283,8.420500000000001,0 110.46929,9.04067,0 110.5946,9.660959999999999,0 110.71919,10.28128,0 110.84305,10.90163,0 110.96621,11.522,0 111.08867,12.1424,0 111.211,12.76271,0 115.1169,11.99525,0 114.9849,11.37127,0 114.85323,10.74719,0 114.72136,10.12311,0 114.58926,9.499029999999999,0 114.45693,8.874969999999999,0 114.32433,8.250920000000001,0 114.19108,7.62696,0 114.0579,7.00294,0 113.9244,6.37895,0 113.79056,5.75499,0 113.65636,5.13105,0 113.52179,4.50716,0 113.38656,3.883350000000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-62-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-09T22:09:37.155Z
+Frame Stop UTC Time: 2019-01-09T22:10:52.155Z
+Frame Start Abs. Orbit: 57800.468371207
+Frame Start Cycle, Rel. Orbit: 167, 283.468371207
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								111.211,12.76271,0 115.1169,11.99525,0 114.17664,7.55924,0 110.32911,8.35319,0 111.211,12.76271,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-62-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-09T22:10:44.655Z
+Frame Stop UTC Time: 2019-01-09T22:11:59.655Z
+Frame Start Abs. Orbit: 57800.479536486
+Frame Start Cycle, Rel. Orbit: 167, 283.479536486
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								110.41925,8.79401,0 114.27152,8.002750000000001,0 113.31808,3.56758,0 109.503,4.38634,0 110.41925,8.79401,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-63</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-63</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-63
+Start UTC Time: 2019-01-10T10:50:24.707Z
+Stop UTC Time: 2019-01-10T10:51:39.707Z
+Start Abs. Orbit: 57808.019013300
+Start Cycle, Rel. Orbit: 167, 291.019013300
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								113.83943,12.95257,0 113.85259,12.88524,0 113.97473,12.26491,0 114.09706,11.64452,0 114.22008,11.02414,0 114.3438,10.40378,0 114.46823,9.78346,0 114.5934,9.16316,0 114.71965,8.54297,0 110.87005,7.75025,0 110.73692,8.374219999999999,0 110.60437,8.998279999999999,0 110.47209,9.622350000000001,0 110.34004,10.24642,0 110.20821,10.8705,0 110.07658,11.49459,0 109.94467,12.11857,0 109.93042,12.1863,0 113.83943,12.95257,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-63-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-10T10:50:24.707Z
+Frame Stop UTC Time: 2019-01-10T10:51:39.707Z
+Frame Start Abs. Orbit: 57808.019013300
+Frame Start Cycle, Rel. Orbit: 167, 291.019013300
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								109.93042,12.1863,0 113.83943,12.95257,0 114.71965,8.54297,0 110.87005,7.75025,0 109.93042,12.1863,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-64</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-64</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-64
+Start UTC Time: 2019-01-10T21:42:29.963Z
+Stop UTC Time: 2019-01-10T21:44:52.463Z
+Start Abs. Orbit: 57814.490878093
+Start Cycle, Rel. Orbit: 167, 297.490878093
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								115.07089,-3.6,0 115.144,-3.28692,0 115.28757,-2.66831,0 115.43003,-2.04956,0 115.57138,-1.43068,0 115.71169,-0.81168,0 115.85095,-0.19257,0 115.9892,0.42666,0 116.12644,1.046,0 116.26282,1.66541,0 116.39812,2.28494,0 116.53249,2.904560000000001,0 116.66594,3.52427,0 116.79849,4.14405,0 116.93016,4.76392,0 120.74754,3.94756,0 120.61218,3.32374,0 120.47639,2.69997,0 120.34013,2.07624,0 120.2034,1.45258,0 120.06616,0.82896,0 119.92829,0.20544,0 119.78999,-0.41804,0 119.65112,-1.04145,0 119.51165,-1.66479,0 119.37158,-2.28804,0 119.23089,-2.91122,0 119.08952,-3.53431,0 118.94747,-4.1573,0 118.8753,-4.47262,0 115.07089,-3.6,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-64-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-10T21:42:29.963Z
+Frame Stop UTC Time: 2019-01-10T21:43:44.963Z
+Frame Start Abs. Orbit: 57814.490878093
+Frame Start Cycle, Rel. Orbit: 167, 297.490878093
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								116.93016,4.76392,0 120.74754,3.94756,0 119.77495,-0.4857,0 115.97424,0.35946,0 116.93016,4.76392,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-64-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-10T21:43:37.463Z
+Frame Stop UTC Time: 2019-01-10T21:44:52.463Z
+Frame Start Abs. Orbit: 57814.502042435
+Frame Start Cycle, Rel. Orbit: 167, 297.502042435
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								116.07198,0.79969,0 119.87336,-0.04251,0 118.8753,-4.47262,0 115.07089,-3.6,0 116.07198,0.79969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-65</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-65</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-65
+Start UTC Time: 2019-01-10T23:21:01.910Z
+Stop UTC Time: 2019-01-10T23:22:16.910Z
+Start Abs. Orbit: 57815.468791238
+Start Cycle, Rel. Orbit: 167, 298.468791238
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								96.97908,10.59699,0 96.84715,9.972910000000001,0 96.715,9.348839999999999,0 96.5826,8.72477,0 96.44994,8.100720000000001,0 96.31661999999999,7.476769999999999,0 96.30216999999999,7.40905,0 92.45620000000001,8.20392,0 92.46993999999998,8.271229999999999,0 92.59658,8.89139,0 92.72208000000001,9.511670000000001,0 92.84682999999998,10.13198,0 92.97087000000002,10.75232,0 93.09419,11.37269,0 93.21683,11.99308,0 93.33931,12.61339,0 97.24283,11.84505,0 97.11078999999999,11.22107,0 96.97908,10.59699,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-65-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-10T23:21:01.910Z
+Frame Stop UTC Time: 2019-01-10T23:22:16.910Z
+Frame Start Abs. Orbit: 57815.468791238
+Frame Start Cycle, Rel. Orbit: 167, 298.468791238
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								93.33931,12.61339,0 97.24283,11.84505,0 96.30216999999999,7.40905,0 92.45620000000001,8.20392,0 93.33931,12.61339,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-66</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-66</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-66
+Start UTC Time: 2019-01-11T10:20:55.637Z
+Stop UTC Time: 2019-01-11T10:22:10.637Z
+Start Abs. Orbit: 57822.018053049
+Start Cycle, Rel. Orbit: 167, 305.018053049
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								121.25331,12.6112,0 121.26651,12.54387,0 121.38901,11.92356,0 121.51172,11.30317,0 121.63512,10.6828,0 121.75924,10.06247,0 121.88407,9.442159999999999,0 122.00998,8.821949999999999,0 122.13631,8.20172,0 118.29032,7.4069,0 118.15734,8.03093,0 118.02433,8.654909999999999,0 117.8919,9.278969999999999,0 117.75973,9.903040000000001,0 117.62778,10.52712,0 117.49604,11.1512,0 117.36404,11.77519,0 117.34978,11.84292,0 121.25331,12.6112,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-66-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-11T10:20:55.637Z
+Frame Stop UTC Time: 2019-01-11T10:22:10.637Z
+Frame Start Abs. Orbit: 57822.018053049
+Frame Start Cycle, Rel. Orbit: 167, 305.018053049
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								117.34978,11.84292,0 121.25331,12.6112,0 122.13631,8.20172,0 118.29032,7.4069,0 117.34978,11.84292,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-67</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-67</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-67
+Start UTC Time: 2019-01-11T21:10:56.447Z
+Stop UTC Time: 2019-01-11T21:12:11.447Z
+Start Abs. Orbit: 57828.469334411
+Start Cycle, Rel. Orbit: 167, 311.469334411
+Duration (orbs): 0.012405961
+Duration (secs): 75.000
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								129.4746,10.40275,0 129.3426,9.77867,0 129.21038,9.1546,0 129.0779,8.53055,0 128.94515,7.906499999999999,0 128.81173,7.282560000000001,0 128.79728,7.21484,0 124.95328,8.01089,0 124.96705,8.078200000000001,0 125.09393,8.69834,0 125.21966,9.31861,0 125.34464,9.93891,0 125.4689,10.55925,0 125.59244,11.17961,0 125.71529,11.79999,0 125.83798,12.4203,0 129.73847,11.65081,0 129.60638,11.02683,0 129.4746,10.40275,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-67-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-11T21:10:56.447Z
+Frame Stop UTC Time: 2019-01-11T21:12:11.447Z
+Frame Start Abs. Orbit: 57828.469334411
+Frame Start Cycle, Rel. Orbit: 167, 311.469334411
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								125.83798,12.4203,0 129.73847,11.65081,0 128.79728,7.21484,0 124.95328,8.01089,0 125.83798,12.4203,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>swath-68</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>swath-68</name>
+			<visibility>0</visibility>
+			<description>Satellite: RADARSAT-2
+Swath ID: swath-68
+Start UTC Time: 2019-01-11T22:50:54.356Z
+Stop UTC Time: 2019-01-11T22:53:16.856Z
+Start Abs. Orbit: 57829.461465411
+Start Cycle, Rel. Orbit: 167, 312.461465411
+Duration (orbs): 0.023571325
+Duration (secs): 142.500
+Sensor Mode: MSSR
+Beam: DVWF
+Incidence Angle: 35.29
+Tx Polarization: H
+Rx Polarization: H
+Pass Direction: Descending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 20
+Sub Priority: 10
+Framing: Standard Georeferenced</description>
+			<styleUrl>#SwathPolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								103.42327,6.3521,0 103.35556,6.03625,0 99.5226,6.839550000000001,0 99.58752,7.15345,0 99.71516000000001,7.773610000000001,0 99.84202000000001,8.39381,0 99.96850999999998,9.01398,0 100.09385,9.634259999999999,0 100.21847,10.25458,0 100.34236,10.87493,0 100.46555,11.49531,0 100.58804,12.1157,0 100.71039,12.73601,0 100.83155,13.35644,0 100.95206,13.97687,0 101.07193,14.59731,0 101.19118,15.21776,0 105.1404,14.46465,0 105.00945,13.8406,0 104.87838,13.21654,0 104.7472,12.59247,0 104.61587,11.9684,0 104.48386,11.34442,0 104.35219,10.72033,0 104.2203,10.09625,0 104.0882,9.47218,0 103.95585,8.84811,0 103.82324,8.22406,0 103.68998,7.60011,0 103.55679,6.97609,0 103.42327,6.3521,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-68-frame-1</name>
+			<visibility>0</visibility>
+			<description>Frame:  1
+Frame Start UTC Time: 2019-01-11T22:50:54.356Z
+Frame Stop UTC Time: 2019-01-11T22:52:09.356Z
+Frame Start Abs. Orbit: 57829.461465411
+Frame Start Cycle, Rel. Orbit: 167, 312.461465411
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								101.19118,15.21776,0 105.1404,14.46465,0 104.20598,10.02853,0 100.32895,10.80761,0 101.19118,15.21776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>swath-68-frame-2</name>
+			<visibility>0</visibility>
+			<description>Frame:  2
+Frame Start UTC Time: 2019-01-11T22:52:01.856Z
+Frame Stop UTC Time: 2019-01-11T22:53:16.856Z
+Frame Start Abs. Orbit: 57829.472630693
+Frame Start Cycle, Rel. Orbit: 167, 312.472630693
+Frame Duration (orbs): 0.012405961
+Frame Duration (secs): 75.000</description>
+			<styleUrl>#FramePolygonStyle</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								100.41664,11.2486,0 104.29977,10.47216,0 103.35556,6.03625,0 99.5226,6.839550000000001,0 100.41664,11.2486,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>D1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.00582,19.95499,0 104.04223,15.972,0 108.00341,15.98106,0 107.99643,19.96407,0 104.00582,19.95499,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>D5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.02601,3.96485,0 104.03315,-0.02299,0 108.01588,0.01376,0 108.01818,3.97153,0 104.02601,3.96485,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							123.98043,19.991,0 124.01927,15.96421,0 128.00293,15.99147,0 128.00791,19.92539,0 123.98043,19.991,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>A2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							92.0262,15.97091,0 92.05231000000001,11.99838,0 96.01987000000001,12.00256,0 96.01872,15.97436,0 92.0262,15.97091,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>A3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							92.05231000000001,11.99838,0 92.02019,7.99789,0 96.02460999999998,7.962240000000001,0 96.01987000000001,12.00256,0 92.05231000000001,11.99838,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>D3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.02567,12.01827,0 104.0169,7.999,0 108.02326,7.98743,0 107.99453,11.96711,0 104.02567,12.01827,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>E5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							108.0219,3.992370000000001,0 108.02418,-0.01497,0 111.99854,0.03632,0 111.9773,3.986419999999999,0 108.0219,3.992370000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.00487,15.97577,0 123.99128,11.98676,0 128.00884,11.98797,0 128.01207,15.99195,0 124.00487,15.97577,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>B3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							96.02267999999999,12.00595,0 95.9983,7.96665,0 100.01438,7.98576,0 100.01751,11.99711,0 96.02267999999999,12.00595,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>D4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.01634,7.99385,0 104.02089,4.01572,0 108.01278,3.98422,0 108.01551,8.00573,0 104.01634,7.99385,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.98893,4.00397,0 115.99398,0.00244,0 120.00371,-0.00663,0 120.01756,3.98559,0 115.98893,4.00397,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							116.0034,15.98526,0 115.99873,12.01029,0 120.01957,12.00299,0 120.01423,15.99334,0 116.0034,15.98526,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>B2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							96.00416,15.98582,0 96.01193000000001,12.0078,0 100.00202,12.0169,0 100.00521,15.97399,0 96.00416,15.98582,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>A4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							92.01023000000001,7.991799999999999,0 91.98848999999999,3.99433,0 96.01030999999999,3.99267,0 96.00044,7.98146,0 92.01023000000001,7.991799999999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>E1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							108.00231,19.97447,0 108.0111,16.00162,0 111.99774,15.99229,0 112.00892,19.9734,0 108.00231,19.97447,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.00868,3.99404,0 120.00667,-0.01395,0 124.00546,-0.00106,0 124.00395,3.98717,0 120.00868,3.99404,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.01925,15.99054,0 120.01972,11.99715,0 124.00279,11.97997,0 123.99017,15.98922,0 120.01925,15.99054,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>B4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							95.99213000000002,7.98896,0 96.00611000000001,4.00102,0 100.00486,4.01035,0 100.00997,7.9885,0 95.99213000000002,7.98896,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>E2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							108.00845,15.9854,0 108.00533,12.00397,0 111.99876,12.00418,0 112.00163,15.99775,0 108.00845,15.9854,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.00593,3.99536,0 124.00447,-0.00759,0 128.00359,-0.007620000000000001,0 128.00216,3.98907,0 124.00593,3.99536,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							116.00331,11.99701,0 115.99449,7.98994,0 120.01913,8.007479999999999,0 120.01307,11.99562,0 116.00331,11.99701,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>C2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							99.99995999999999,15.97902,0 100.01866,12.01566,0 104.01346,12.00052,0 104.0085,15.98775,0 99.99995999999999,15.97902,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>E3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							108.00661,11.99574,0 108.01293,8.00652,0 112.01342,7.994939999999999,0 111.99888,12.00303,0 108.00661,11.99574,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>D6.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.02004,-0.005969999999999999,0 104.02184,-4.0115,0 108.00175,-4.01136,0 108.00327,0.00722,0 104.02004,-0.005969999999999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.02154,11.98972,0 120.02656,7.994039999999999,0 123.98975,8.00633,0 124.00137,11.98326,0 120.02154,11.98972,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>C3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							100.0058,12.00466,0 100.00935,7.99295,0 104.00467,8.00685,0 104.01501,12.00471,0 100.0058,12.00466,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.99587,7.99377,0 115.99782,3.99623,0 120.02147,3.99003,0 120.01653,7.99403,0 115.99587,7.99377,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>E4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							108.01953,7.999990000000001,0 108.02188,4.00573,0 112.00384,3.99998,0 112.01771,8.00056,0 108.01953,7.999990000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>D7.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							104.01746,-4.02517,0 104.01628,-8.00426,0 108.00567,-8.01107,0 108.00467,-4.01861,0 104.01746,-4.02517,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.01799,7.98393,0 120.01967,3.99056,0 124.00114,3.99825,0 124.00117,8.012000000000001,0 120.01799,7.98393,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>F1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							112.0049,19.99299,0 112.00623,16.00146,0 116.00816,15.99123,0 116.01119,20.00156,0 112.0049,19.99299,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G6.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							115.99527,-0.01941,0 116.01127,-3.98248,0 119.99001,-4.01732,0 120.00594,-0.01245,0 115.99527,-0.01941,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.01153,20.00423,0 120.01154,16.01545,0 123.99458,15.99399,0 124.00226,20.011,0 120.01153,20.00423,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>F2.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							112.00181,15.99532,0 112.00124,12.00707,0 116.00287,12.00273,0 116.00503,15.98499,0 112.00181,15.99532,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>H6.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							120.00496,-0.00257,0 119.99383,-4.00217,0 124.00087,-3.99517,0 124.00238,0.01113,0 120.00496,-0.00257,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>G1.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							116.00472,19.99134,0 116.00537,15.99288,0 120.01102,15.99348,0 120.01053,20.00421,0 116.00472,19.99134,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>A5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							91.99097,3.99614,0 92.00846,0.00455,0 95.99693000000001,-0.00199,0 96.00824,3.99604,0 91.99097,3.99614,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>F3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							111.99376,12.00487,0 112.01736,7.9927,0 115.99153,8.006030000000001,0 115.99518,12.00423,0 111.99376,12.00487,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I6.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.0018,-0.00452,0 124.00953,-3.99861,0 128.0035,-3.99875,0 128.01149,0.0081,0 124.0018,-0.00452,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>B5.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							96.00797999999999,3.99571,0 96.00099,0.00457,0 100.0048,0.00461,0 100.00958,3.99574,0 96.00797999999999,3.99571,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>F4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							112.01287,8.00095,0 112.00068,4.00662,0 115.99619,3.98664,0 115.99076,8.00759,0 112.01287,8.00095,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I4.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.00324,8.002879999999999,0 124.01118,4.00045,0 128.00107,4.00613,0 127.99761,8.00248,0 124.00324,8.002879999999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>I3.rgn</name>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							123.99915,11.98166,0 123.99827,8.00447,0 128.00541,8.00447,0 128.01092,11.99406,0 123.99915,11.98166,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<name>region40.rgn</name>
+		<visibility>0</visibility>
+		<styleUrl>#RegionPolygonStyle</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							92.06050999999999,15.89715,0 91.94119000000001,0.06508,0 99.97727999999999,0.00039,0 100.00788,7.964349999999999,0 103.94582,8.0334,0 104.05752,-8.03661,0 107.94985,-7.933369999999999,0 107.95435,-0.04610000000000001,0 111.997,-0.02114,0 111.99171,3.98951,0 115.97829,3.93591,0 116.03293,-3.94314,0 127.95789,-3.9681,0 128.14434,19.87822,0 124.00431,19.89066,0 119.97618,19.99173,0 116.02856,20.01296,0 112.08959,19.95541,0 108.08391,19.93206,0 103.98816,19.94155,0 104.03495,16.1134,0 99.9927,15.87592,0 96.21928,15.9021,0 92.06050999999999,15.89715,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
